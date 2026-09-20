@@ -1,4 +1,4 @@
-# WavePoint-Project-2 — ML Experiment Tracker
+# ML Experiment Tracker
 
 Project 2 of a 3-project AI Engineering Workshop, forked from Project 1's CSV
 Analysis Assistant. It keeps Project 1's upload-and-ask flow — Claude reads a
