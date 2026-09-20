@@ -1,0 +1,117 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    # Deliberately unfiltered. Phases land as stacks of PRs that each target the
+    # previous task's branch rather than main, and the `branches:` filter matches
+    # the BASE. An enumerated list (it was `[main, 'phase2a/**']`) silently gives
+    # a whole phase no checks until someone remembers to add it — the failure is
+    # invisible, because a PR with no runs looks the same as one whose runs have
+    # not started. Every PR gets the gate; `push` stays pinned to main so a
+    # stack branch is not built twice per commit.
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Poetry
+        run: pipx install poetry
+
+      - name: Cache the virtualenv
+        uses: actions/cache@v4
+        with:
+          path: .venv
+          key: venv-${{ runner.os }}-py312-${{ hashFiles('poetry.lock') }}
+
+      - name: Install dependencies
+        run: |
+          poetry config virtualenvs.in-project true
+          poetry install --no-interaction
+
+      # `make check` == lint + format-check + type-check + test.
+      # Tests use the SQLite backend and every Settings field has a default, so
+      # no service container and no secrets are needed.
+      - name: make check
+        run: make check
+
+  # The pgvector half of retrieval cannot run on SQLite: `<=>` is a Postgres
+  # operator with no SQLite equivalent, so the default suite monkeypatches
+  # `_rank_chunks` and a wrong operator, a reversed ORDER BY, or a broken
+  # composite IN would ship completely green.
+  backend-postgres:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: wavepoint
+          POSTGRES_PASSWORD: wavepoint
+          POSTGRES_DB: wavepoint
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U wavepoint"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Poetry
+        run: pipx install poetry
+
+      - name: Cache the virtualenv
+        uses: actions/cache@v4
+        with:
+          path: .venv
+          key: venv-${{ runner.os }}-py312-${{ hashFiles('poetry.lock') }}
+
+      - name: Install dependencies
+        run: |
+          poetry config virtualenvs.in-project true
+          poetry install --no-interaction
+
+      # No VOYAGE_API_KEY and no ANTHROPIC_API_KEY: nothing here embeds
+      # anything. Every vector is hand-built and `embed_texts` is monkeypatched.
+      - name: Run the pgvector tests
+        env:
+          POSTGRES_TEST_URL: postgresql+psycopg2://wavepoint:wavepoint@localhost:5432/wavepoint
+        run: poetry run pytest -m postgres -v
+
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - run: npm ci
+
+      - run: npm run type-check
+
+      - run: npm test
+
+      - run: npm run build

@@ -1,0 +1,73 @@
+/* No padding here: AppShell's main already insets the page, and a second inset
+   cost this table real width — it was part of why cells were being clipped. */
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: var(--text-xl);
+  font-weight: var(--weight-semibold);
+  margin: 0;
+}
+
+.empty {
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+
+/* Below ~900px the five columns cannot all fit at a readable size. Scrolling the
+   table sideways keeps every cell whole; shrinking them truncated the text. */
+.tableScroll {
+  overflow-x: auto;
+}
+
+.list {
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+  width: 100%;
+  min-width: 900px;
+}
+
+.list th,
+.list td {
+  border: 1px solid var(--line);
+  padding: var(--space-2) var(--space-3);
+  text-align: left;
+}
+
+.list thead th {
+  background: var(--surface);
+  font-weight: var(--weight-semibold);
+}
+
+/* The three short columns never wrap; the objective takes whatever is left, so
+   prose is the only thing that reflows. */
+.name,
+.dataset,
+.created {
+  white-space: nowrap;
+}
+
+.objective {
+  color: var(--muted);
+  min-width: 18rem;
+}
+
+.created {
+  color: var(--muted);
+}
+
+.count {
+  text-align: right;
+  white-space: nowrap;
+}

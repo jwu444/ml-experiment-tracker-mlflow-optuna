@@ -1,0 +1,57 @@
+:root {
+  /* color — warm amber paper, light */
+  --bg: #fbf2e6;
+  --surface: #fff8ee;
+  --ink: #2a2118;
+  --muted: #7c6d5e;
+  --line: #efe1cf;
+  --accent: #0b7d70;        /* fill: dark enough that #fff text clears AA (4.5:1) */
+  --accent-text: #0f766e;   /* accent-colored text on --bg */
+  --accent-ink: #ffffff;    /* text/icon on --accent fills */
+  --danger: #c0392b;
+  --success: #1a7a4a;
+  --warn: #a5631a;
+
+  /* type scale */
+  --text-xs: 12px;
+  --text-sm: 13px;
+  --text-base: 14px;
+  --text-lg: 16px;
+  --text-xl: 20px;
+  --text-2xl: 26px;
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  /* radius */
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+:root[data-theme="dark"] {
+  /* deep indigo/navy night, cool */
+  --bg: #12141f;
+  --surface: #1a1d2c;
+  --ink: #e8ebf5;
+  --muted: #969fb5;
+  --line: #262a3c;
+  --accent: #33dbc6;
+  --accent-text: #63ecd6;
+  --accent-ink: #05201c;
+  --danger: #e06a5c;
+  --success: #4ecb8a;
+  --warn: #d9a441;
+}

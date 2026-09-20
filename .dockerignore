@@ -1,0 +1,11 @@
+mlruns/
+data-sources/
+frontend/
+.git/
+.env
+.venv/
+**/__pycache__/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+backend/eval/.vector-cache.json

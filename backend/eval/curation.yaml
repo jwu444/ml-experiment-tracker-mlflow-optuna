@@ -1,0 +1,126 @@
+runs:
+- id: ce300a47-363c-4afe-9021-679cc8063c30
+  decision: approved
+  reason: 'pc-part-video-card/ridge: best of 8 by holdout metric'
+- id: 34e05ee3-fc2e-4cea-aeb4-f2765ae42ab8
+  decision: rejected
+  reason: 'pc-part-video-card/ridge: outside the 3-of-8 outcome-diversity sample'
+- id: fa00b25c-2733-4499-81fe-a130ff880e77
+  decision: rejected
+  reason: 'pc-part-video-card/ridge: outside the 3-of-8 outcome-diversity sample'
+- id: b08a6dc4-327f-4e51-b506-6a6a9e227346
+  decision: rejected
+  reason: 'pc-part-video-card/ridge: outside the 3-of-8 outcome-diversity sample'
+- id: 9aee247b-a63d-4a42-8434-f54e71f009a0
+  decision: approved
+  reason: 'pc-part-video-card/ridge: mid of 8 by holdout metric'
+- id: ade6e122-bac7-47f8-9649-01d69d46318c
+  decision: rejected
+  reason: 'pc-part-video-card/ridge: outside the 3-of-8 outcome-diversity sample'
+- id: 4bfb778a-6de9-4f61-b0de-661856f0979f
+  decision: rejected
+  reason: 'pc-part-video-card/ridge: outside the 3-of-8 outcome-diversity sample'
+- id: 2e6ca0df-8077-41a3-a412-7386acd134a4
+  decision: approved
+  reason: 'pc-part-video-card/ridge: worst of 8 by holdout metric'
+- id: 5f90c1ac-41b4-430c-a4e6-977c72bc9976
+  decision: approved
+  reason: 'revenue-nowcast/gradient_boosting: best of 8 by holdout metric'
+- id: 72876a20-6c64-49ca-aba3-2a497650df26
+  decision: rejected
+  reason: 'revenue-nowcast/gradient_boosting: outside the 4-of-8 outcome-diversity
+    sample'
+- id: 4a54687b-375a-47eb-98aa-ad3b934653af
+  decision: approved
+  reason: 'revenue-nowcast/gradient_boosting: mid of 8 by holdout metric'
+- id: dadc7d99-8466-4463-9f90-356e662899e7
+  decision: rejected
+  reason: 'revenue-nowcast/gradient_boosting: outside the 4-of-8 outcome-diversity
+    sample'
+- id: d5e971e8-86f2-4fc5-8e65-367d1449eda9
+  decision: rejected
+  reason: 'revenue-nowcast/gradient_boosting: outside the 4-of-8 outcome-diversity
+    sample'
+- id: 6c5ce196-9ef2-4a55-9d89-c03cf5ae679c
+  decision: approved
+  reason: 'revenue-nowcast/gradient_boosting: mid of 8 by holdout metric'
+- id: 3458bb1b-cf40-4982-b6ef-1021266b0f28
+  decision: rejected
+  reason: 'revenue-nowcast/gradient_boosting: outside the 4-of-8 outcome-diversity
+    sample'
+- id: bc98addf-c0b4-42ac-94de-e415a89c51bd
+  decision: approved
+  reason: 'revenue-nowcast/gradient_boosting: worst of 8 by holdout metric'
+- id: 5cba07a9-2e22-41eb-af13-d222ce956e3b
+  decision: approved
+  reason: 'revenue-nowcast/persistence: best of 2 by holdout metric'
+- id: f5aeedb0-a1ce-4f59-94f7-dd4ad4737596
+  decision: approved
+  reason: 'revenue-nowcast/persistence: worst of 2 by holdout metric'
+- id: df3293ff-7862-402d-b96e-f842538d90b2
+  decision: approved
+  reason: 'revenue-nowcast/random_forest: best of 8 by holdout metric'
+- id: 3aed551c-8f2f-4227-a194-fe8946eab242
+  decision: rejected
+  reason: 'revenue-nowcast/random_forest: outside the 4-of-8 outcome-diversity sample'
+- id: 382b20ce-97a9-4e47-823d-bcf41510ef5c
+  decision: approved
+  reason: 'revenue-nowcast/random_forest: mid of 8 by holdout metric'
+- id: d0e76266-5752-42b6-92e7-653a6f021d7e
+  decision: rejected
+  reason: 'revenue-nowcast/random_forest: outside the 4-of-8 outcome-diversity sample'
+- id: 52228e1e-b3f7-4add-a5c3-514cf26b21de
+  decision: rejected
+  reason: 'revenue-nowcast/random_forest: outside the 4-of-8 outcome-diversity sample'
+- id: 40b66746-27ef-497e-a39c-a92c7074825d
+  decision: approved
+  reason: 'revenue-nowcast/random_forest: mid of 8 by holdout metric'
+- id: 4396ad9e-69d9-4e43-86fc-6d9501995310
+  decision: rejected
+  reason: 'revenue-nowcast/random_forest: outside the 4-of-8 outcome-diversity sample'
+- id: e1d835ba-3d2a-4320-bcfd-b5408f8dc815
+  decision: approved
+  reason: 'revenue-nowcast/random_forest: worst of 8 by holdout metric'
+- id: 37ec47a2-3dc5-4942-a82d-7599e11868d6
+  decision: approved
+  reason: 'revenue-nowcast/ridge: best of 8 by holdout metric'
+- id: f31119e1-3264-4a78-85f4-9e02e450dc34
+  decision: rejected
+  reason: 'revenue-nowcast/ridge: outside the 4-of-8 outcome-diversity sample'
+- id: 123178f6-8e7f-412a-9d27-3ad3a400a8d1
+  decision: approved
+  reason: 'revenue-nowcast/ridge: mid of 8 by holdout metric'
+- id: a1fc6606-0a63-4423-9dde-7d0d2211e656
+  decision: rejected
+  reason: 'revenue-nowcast/ridge: outside the 4-of-8 outcome-diversity sample'
+- id: aac93fe6-0f04-4016-9115-d47276e3c135
+  decision: rejected
+  reason: 'revenue-nowcast/ridge: outside the 4-of-8 outcome-diversity sample'
+- id: 766c6785-a5f1-43a2-b041-a805f23dbea6
+  decision: approved
+  reason: 'revenue-nowcast/ridge: mid of 8 by holdout metric'
+- id: b0af22f0-c079-4087-8267-3285239b8abf
+  decision: rejected
+  reason: 'revenue-nowcast/ridge: outside the 4-of-8 outcome-diversity sample'
+- id: 4460e59f-a08a-4b1f-ba7c-221510bfe6ba
+  decision: approved
+  reason: 'revenue-nowcast/ridge: worst of 8 by holdout metric'
+findings:
+- id: 2560f5bc-9a03-4764-9537-6d95aa239d3a
+  decision: approved
+  reason: distinct source; no redundancy
+- id: 3b214724-2b65-475b-a927-53c5b13d0234
+  decision: approved
+  reason: distinct source; no redundancy
+- id: 52d8feea-1913-49de-a3aa-16c1bdeb0832
+  decision: approved
+  reason: distinct source; no redundancy
+- id: 8029ea81-1b9a-4bd4-b899-60747bfe847c
+  decision: approved
+  reason: distinct source; no redundancy
+- id: 8cdf5406-4793-4c61-becb-7f868a5963a7
+  decision: approved
+  reason: distinct source; no redundancy
+- id: d48a4651-c199-4ef3-8227-51b4116e3a0c
+  decision: approved
+  reason: distinct source; no redundancy

@@ -1,0 +1,25 @@
+.form {
+  display: block;
+}
+
+/* Chat-composer layout: the send button sits inside the textarea. The textarea
+   reserves right padding so typed text never runs under the button. */
+.field {
+  position: relative;
+}
+
+.field .input {
+  padding-right: 5.5rem;
+}
+
+/* Flush against the box: pinned to the top, right, and bottom edges with no
+   margin, so it spans the full height of the field. Right corners are rounded
+   to match the textarea; left corners stay square where it meets the text. */
+.send {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}

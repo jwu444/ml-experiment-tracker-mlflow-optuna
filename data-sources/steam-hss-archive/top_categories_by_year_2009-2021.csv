@@ -1,0 +1,181 @@
+year,category_key,top_item,percentage
+2009,cat0,Windows XP 32 bit,47.97%
+2009,cat1,2 GB,32.47%
+2009,cat10,4x,91.28%
+2009,cat11,8.16.11.9107 (9/27/2009),15.74%
+2009,cat12,8.14.10.678 (8/17/2009),10.58%
+2009,cat16,512 MB,39.24%
+2009,cat17,1280 x 1024,21.01%
+2009,cat18,2960 x 1050,12.02%
+2009,cat19,Realtek HD Audio output,41.01%
+2009,cat2,GenuineIntel,68.97%
+2009,cat20,Yes,69.28%
+2009,cat21,English,58.11%
+2009,cat22,DVD,96.94%
+2009,cat23,10 GB to  99 GB,38.97%
+2009,cat24,250 GB to 499 GB,30.99%
+2009,cat25,"2,048.0 Kbps",31.76%
+2009,cat26,FCMOV,99.99%
+2009,cat3,2.3 Ghz to 2.69 Ghz,25.95%
+2009,cat4,2.0 Ghz to 2.29 Ghz,10.05%
+2009,cat5,2 cpus,57.18%
+2010,cat0,Windows 7 64 bit,34.18%
+2010,cat1,3 GB,27.20%
+2010,cat10,10 GB to  99 GB,32.82%
+2010,cat11,250 GB to 499 GB,33.20%
+2010,cat12,"2,048.0 Kbps",19.45%
+2010,cat13,FCMOV,19.66%
+2010,cat2,2.3 Ghz to 2.69 Ghz,29.22%
+2010,cat3,2 cpus,55.01%
+2010,cat5,512 MB,32.50%
+2010,cat6,1680 x 1050,18.46%
+2010,cat7,2960 x 1050,8.70%
+2010,cat8,Yes,76.55%
+2010,cat9,English,61.87%
+2011,cat0,Windows 7 64 bit,42.21%
+2011,cat1,4 GB,29.54%
+2011,cat10,10 GB to  99 GB,31.53%
+2011,cat11,250 GB to 499 GB,30.17%
+2011,cat12,"2,048.0 Kbps",19.45%
+2011,cat13,FCMOV,19.66%
+2011,cat2,2.3 Ghz to 2.69 Ghz,30.70%
+2011,cat3,2 cpus,48.47%
+2011,cat5,1024 MB,41.22%
+2011,cat6,1920 x 1080,24.12%
+2011,cat7,3840 x 1080,9.99%
+2011,cat8,Yes,77.26%
+2011,cat9,English,67.88%
+2012,cat0,Windows 7 64 bit,58.58%
+2012,cat1,4 GB,23.43%
+2012,cat10,100 GB to 249 GB,26.10%
+2012,cat11,250 GB to 499 GB,34.23%
+2012,cat12,Unspecified,19.45%
+2012,cat13,FCMOV,19.66%
+2012,cat2,2.3 Ghz to 2.69 Ghz,21.17%
+2012,cat3,2 cpus,47.34%
+2012,cat5,1024 MB,34.03%
+2012,cat6,1920 x 1080,29.47%
+2012,cat7,3840 x 1080,18.60%
+2012,cat8,Yes,72.95%
+2012,cat9,English,54.74%
+2013,cat0,Windows 7 64 bit,51.76%
+2013,cat1,8 GB,26.28%
+2013,cat10,100 GB to 249 GB,25.23%
+2013,cat11,250 GB to 499 GB,33.43%
+2013,cat12,Unspecified,30.62%
+2013,cat13,FCMOV,100.00%
+2013,cat2,2.3 Ghz to 2.69 Ghz,21.79%
+2013,cat3,2 cpus,47.10%
+2013,cat5,1024 MB,37.57%
+2013,cat6,1920 x 1080,32.61%
+2013,cat7,3840 x 1080,22.81%
+2013,cat8,Yes,72.47%
+2013,cat9,English,50.82%
+2014,cat0,8 GB,29.04%
+2014,cat1,2.3 Ghz to 2.69 Ghz,22.11%
+2014,cat10,250 GB to 499 GB,33.05%
+2014,cat11,Unspecified,36.69%
+2014,cat12,FCMOV,100.00%
+2014,cat2,2 cpus,48.68%
+2014,cat4,1024 MB,33.71%
+2014,cat5,1920 x 1080,33.40%
+2014,cat6,3840 x 1080,26.20%
+2014,cat7,Yes,69.89%
+2014,cat8,English,48.04%
+2014,cat9,250 GB to 499 GB,25.95%
+2014,osversion,Windows 7 64 bit,47.68%
+2015,cat0,8 GB,32.06%
+2015,cat1,2.3 Ghz to 2.69 Ghz,21.69%
+2015,cat10,250 GB to 499 GB,30.74%
+2015,cat11,Unspecified,39.49%
+2015,cat12,FCMOV,100.00%
+2015,cat2,2 cpus,47.93%
+2015,cat4,1024 MB,33.01%
+2015,cat5,1920 x 1080,35.21%
+2015,cat6,3840 x 1080,29.03%
+2015,cat7,Yes,67.98%
+2015,cat8,English,46.32%
+2015,cat9,250 GB to 499 GB,26.40%
+2015,osversion,Windows 7 64 bit,35.63%
+2016,cat0,8 GB,33.84%
+2016,cat1,2.3 Ghz to 2.69 Ghz,21.33%
+2016,cat10,Above 1 TB,29.31%
+2016,cat11,Unspecified,40.23%
+2016,cat12,HTC Vive,0.21%
+2016,cat13,FCMOV,100.00%
+2016,cat2,4 cpus,47.80%
+2016,cat4,1024 MB,33.56%
+2016,cat5,1920 x 1080,38.06%
+2016,cat6,3840 x 1080,30.50%
+2016,cat7,Yes,64.78%
+2016,cat8,English,44.10%
+2016,cat9,250 GB to 499 GB,25.67%
+2016,osversion,Windows 10 64 bit,48.37%
+2017,cat0,8 GB,53.20%
+2017,cat1,3.0 Ghz to 3.29 Ghz,35.30%
+2017,cat10,Above 1 TB,71.90%
+2017,cat11,Unspecified,99.83%
+2017,cat12,HTC Vive,0.10%
+2017,cat13,SSE2,100.00%
+2017,cat2,4 cpus,72.84%
+2017,cat4,2047 MB,39.17%
+2017,cat5,1920 x 1080,76.41%
+2017,cat6,3840 x 1080,32.97%
+2017,cat7,Yes,99.80%
+2017,cat8,Simplified Chinese,64.35%
+2017,cat9,100 GB to 249 GB,26.25%
+2017,osversion,Windows 7 64 bit,69.89%
+2018,cat0,8 GB,38.66%
+2018,cat1,3.3 Ghz to 3.69 Ghz,22.22%
+2018,cat10,Above 1 TB,48.24%
+2018,cat11,Unspecified,99.94%
+2018,cat12,Oculus Rift,0.36%
+2018,cat13,SSE2,100.00%
+2018,cat2,4 cpus,57.61%
+2018,cat4,2047 MB,21.15%
+2018,cat5,1920 x 1080,60.74%
+2018,cat6,3840 x 1080,72.48%
+2018,cat7,Yes,99.94%
+2018,cat8,English,37.69%
+2018,cat9,250 GB to 499 GB,24.28%
+2018,osversion,Windows 10 64 bit,63.50%
+2019,cat0,16 GB,37.96%
+2019,cat1,3.3 Ghz to 3.69 Ghz,21.45%
+2019,cat10,Above 1 TB,52.53%
+2019,cat11,Unspecified,99.99%
+2019,cat12,Oculus Rift,0.36%
+2019,cat13,SSE3,100.00%
+2019,cat2,4 cpus,51.92%
+2019,cat4,4095 MB,17.56%
+2019,cat5,1920 x 1080,64.63%
+2019,cat6,3840 x 1080,74.48%
+2019,cat7,Yes,99.98%
+2019,cat8,English,36.83%
+2019,cat9,250 GB to 499 GB,24.10%
+2019,osversion,Windows 10 64 bit,74.23%
+2020,cat0,16 GB,43.24%
+2020,cat1,3.3 Ghz to 3.69 Ghz,18.40%
+2020,cat10,Above 1 TB,51.56%
+2020,cat11,Unspecified,100.00%
+2020,cat12,Oculus Rift S,25.09%
+2020,cat13,SSE3,100.00%
+2020,cat2,4 cpus,44.11%
+2020,cat4,6143 MB,23.33%
+2020,cat5,1920 x 1080,66.24%
+2020,cat6,3840 x 1080,71.26%
+2020,cat7,Yes,100.00%
+2020,cat8,English,39.13%
+2020,cat9,250 GB to 499 GB,24.57%
+2020,osversion,Windows 10 64 bit,88.59%
+2021,cat0,16 GB,46.23%
+2021,cat1,2.3 Ghz to 2.69 Ghz,17.99%
+2021,cat10,Oculus Quest 2,36.32%
+2021,cat11,SSE3,100.00%
+2021,cat2,4 cpus,36.12%
+2021,cat4,8191 MB,23.43%
+2021,cat5,1920 x 1080,67.11%
+2021,cat6,3840 x 1080,70.06%
+2021,cat7,English,38.03%
+2021,cat8,100 GB to 249 GB,24.95%
+2021,cat9,Above 1 TB,50.41%
+2021,osversion,Windows 10 64 bit,83.38%

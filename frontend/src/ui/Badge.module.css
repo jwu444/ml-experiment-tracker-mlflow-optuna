@@ -1,0 +1,23 @@
+.badge {
+  display: inline-block;
+  font-size: var(--text-xs);
+  font-weight: var(--weight-medium);
+  padding: var(--space-1) var(--space-2);
+  border-radius: 999px;
+  line-height: 1.4;
+}
+
+.badge[data-tone="neutral"] {
+  background: color-mix(in srgb, var(--muted) 14%, transparent);
+  color: var(--ink);
+}
+
+.badge[data-tone="accent"] {
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+  color: var(--accent-text);
+}
+
+.badge[data-tone="danger"] {
+  background: color-mix(in srgb, var(--danger) 14%, transparent);
+  color: var(--danger);
+}

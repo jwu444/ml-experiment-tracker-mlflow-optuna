@@ -1,0 +1,67 @@
+source_filing,filing_form,period_end,segment_code,segment_name,revenue_usd_millions
+FY2017-10K,10-K,2015-09-03,All Other,All Other (immaterial/unallocated product revenue),89.0
+FY2017-10K,10-K,2015-09-03,CNBU,Compute and Networking Business Unit (client/cloud-server/enterprise/graphics/networking) — scheme used FY2015-2022,6725.0
+FY2017-10K,10-K,2015-09-03,EBU,Embedded Business Unit (automotive/industrial/consumer) — scheme used FY2015-2022,1999.0
+FY2017-10K,10-K,2015-09-03,MBU,Mobile Business Unit (smartphone/mobile) — scheme used FY2015-2022,3692.0
+FY2017-10K,10-K,2015-09-03,SBU,Storage Business Unit (enterprise/cloud/client/consumer SSDs) — scheme used FY2015-2022,3687.0
+FY2018-10K,10-K,2016-09-01,All Other,All Other (immaterial/unallocated product revenue),100.0
+FY2018-10K,10-K,2016-09-01,CNBU,Compute and Networking Business Unit (client/cloud-server/enterprise/graphics/networking) — scheme used FY2015-2022,4529.0
+FY2018-10K,10-K,2016-09-01,EBU,Embedded Business Unit (automotive/industrial/consumer) — scheme used FY2015-2022,1939.0
+FY2018-10K,10-K,2016-09-01,MBU,Mobile Business Unit (smartphone/mobile) — scheme used FY2015-2022,2569.0
+FY2018-10K,10-K,2016-09-01,SBU,Storage Business Unit (enterprise/cloud/client/consumer SSDs) — scheme used FY2015-2022,3262.0
+FY2019-10K,10-K,2017-08-31,All Other,All Other (immaterial/unallocated product revenue),65.0
+FY2019-10K,10-K,2017-08-31,CNBU,Compute and Networking Business Unit (client/cloud-server/enterprise/graphics/networking) — scheme used FY2015-2022,8624.0
+FY2019-10K,10-K,2017-08-31,EBU,Embedded Business Unit (automotive/industrial/consumer) — scheme used FY2015-2022,2695.0
+FY2019-10K,10-K,2017-08-31,MBU,Mobile Business Unit (smartphone/mobile) — scheme used FY2015-2022,4424.0
+FY2019-10K,10-K,2017-08-31,SBU,Storage Business Unit (enterprise/cloud/client/consumer SSDs) — scheme used FY2015-2022,4514.0
+FY2020-10K,10-K,2018-08-30,All Other,All Other (immaterial/unallocated product revenue),59.0
+FY2020-10K,10-K,2018-08-30,CNBU,Compute and Networking Business Unit (client/cloud-server/enterprise/graphics/networking) — scheme used FY2015-2022,15252.0
+FY2020-10K,10-K,2018-08-30,EBU,Embedded Business Unit (automotive/industrial/consumer) — scheme used FY2015-2022,3479.0
+FY2020-10K,10-K,2018-08-30,MBU,Mobile Business Unit (smartphone/mobile) — scheme used FY2015-2022,6579.0
+FY2020-10K,10-K,2018-08-30,SBU,Storage Business Unit (enterprise/cloud/client/consumer SSDs) — scheme used FY2015-2022,5022.0
+FY2021-10K,10-K,2019-08-29,All Other,All Other (immaterial/unallocated product revenue),72.0
+FY2021-10K,10-K,2019-08-29,CNBU,Compute and Networking Business Unit (client/cloud-server/enterprise/graphics/networking) — scheme used FY2015-2022,9968.0
+FY2021-10K,10-K,2019-08-29,EBU,Embedded Business Unit (automotive/industrial/consumer) — scheme used FY2015-2022,3137.0
+FY2021-10K,10-K,2019-08-29,MBU,Mobile Business Unit (smartphone/mobile) — scheme used FY2015-2022,6403.0
+FY2021-10K,10-K,2019-08-29,SBU,Storage Business Unit (enterprise/cloud/client/consumer SSDs) — scheme used FY2015-2022,3826.0
+FY2022-10K,10-K,2020-09-03,All Other,All Other (immaterial/unallocated product revenue),25.0
+FY2022-10K,10-K,2020-09-03,CNBU,Compute and Networking Business Unit (client/cloud-server/enterprise/graphics/networking) — scheme used FY2015-2022,9184.0
+FY2022-10K,10-K,2020-09-03,EBU,Embedded Business Unit (automotive/industrial/consumer) — scheme used FY2015-2022,2759.0
+FY2022-10K,10-K,2020-09-03,MBU,Mobile Business Unit (smartphone/mobile) — scheme used FY2015-2022,5702.0
+FY2022-10K,10-K,2020-09-03,SBU,Storage Business Unit (enterprise/cloud/client/consumer SSDs) — scheme used FY2015-2022,3765.0
+FY2023-10K,10-K,2021-09-02,All Other,All Other (immaterial/unallocated product revenue),40.0
+FY2023-10K,10-K,2021-09-02,CNBU,Compute and Networking Business Unit (client/cloud-server/enterprise/graphics/networking) — scheme used FY2015-2022,12280.0
+FY2023-10K,10-K,2021-09-02,EBU,Embedded Business Unit (automotive/industrial/consumer) — scheme used FY2015-2022,4209.0
+FY2023-10K,10-K,2021-09-02,MBU,Mobile Business Unit (smartphone/mobile) — scheme used FY2015-2022,7203.0
+FY2023-10K,10-K,2021-09-02,SBU,Storage Business Unit (enterprise/cloud/client/consumer SSDs) — scheme used FY2015-2022,3973.0
+FY2024-10K,10-K,2022-09-01,All Other,All Other (immaterial/unallocated product revenue),17.0
+FY2024-10K,10-K,2022-09-01,CNBU,Compute and Networking Business Unit (client/cloud-server/enterprise/graphics/networking) — scheme used FY2015-2022,13693.0
+FY2024-10K,10-K,2022-09-01,EBU,Embedded Business Unit (automotive/industrial/consumer) — scheme used FY2015-2022,5235.0
+FY2024-10K,10-K,2022-09-01,MBU,Mobile Business Unit (smartphone/mobile) — scheme used FY2015-2022,7260.0
+FY2024-10K,10-K,2022-09-01,SBU,Storage Business Unit (enterprise/cloud/client/consumer SSDs) — scheme used FY2015-2022,4553.0
+FY2025-10K,10-K,2023-08-31,AEBU,"Automotive Embedded Business Unit (automotive/industrial/consumer) — new scheme, FY2023+",4139.0
+FY2025-10K,10-K,2023-08-31,All Other,All Other (immaterial/unallocated product revenue),11.0
+FY2025-10K,10-K,2023-08-31,CDBU,"Core Data Center Business Unit (mid-tier cloud/enterprise/OEM data-center memory+storage) — new scheme, FY2023+",2124.0
+FY2025-10K,10-K,2023-08-31,CMBU,"Cloud Memory Business Unit (hyperscale cloud + HBM, all data-center customers) — new scheme, FY2023+",1872.0
+FY2024-10K,10-K,2023-08-31,CNBU,Compute and Networking Business Unit (client/cloud-server/enterprise/graphics/networking) — scheme used FY2015-2022,5710.0
+FY2024-10K,10-K,2023-08-31,EBU,Embedded Business Unit (automotive/industrial/consumer) — scheme used FY2015-2022,3637.0
+FY2024-10K,10-K,2023-08-31,MBU,Mobile Business Unit (smartphone/mobile) — scheme used FY2015-2022,3630.0
+FY2025-10K,10-K,2023-08-31,MCBU,"Mobile Client Business Unit (mobile + PC client memory/storage) — new scheme, FY2023+",7394.0
+FY2024-10K,10-K,2023-08-31,SBU,Storage Business Unit (enterprise/cloud/client/consumer SSDs) — scheme used FY2015-2022,2553.0
+FY2025-10K,10-K,2023-08-31,Unallocated,Unallocated (not attributed to a segment),0.0
+FY2025-10K,10-K,2024-08-29,AEBU,"Automotive Embedded Business Unit (automotive/industrial/consumer) — new scheme, FY2023+",4631.0
+FY2025-10K,10-K,2024-08-29,All Other,All Other (immaterial/unallocated product revenue),37.0
+FY2025-10K,10-K,2024-08-29,CDBU,"Core Data Center Business Unit (mid-tier cloud/enterprise/OEM data-center memory+storage) — new scheme, FY2023+",4984.0
+FY2025-10K,10-K,2024-08-29,CMBU,"Cloud Memory Business Unit (hyperscale cloud + HBM, all data-center customers) — new scheme, FY2023+",3792.0
+FY2024-10K,10-K,2024-08-29,CNBU,Compute and Networking Business Unit (client/cloud-server/enterprise/graphics/networking) — scheme used FY2015-2022,9513.0
+FY2024-10K,10-K,2024-08-29,EBU,Embedded Business Unit (automotive/industrial/consumer) — scheme used FY2015-2022,4614.0
+FY2024-10K,10-K,2024-08-29,MBU,Mobile Business Unit (smartphone/mobile) — scheme used FY2015-2022,6354.0
+FY2025-10K,10-K,2024-08-29,MCBU,"Mobile Client Business Unit (mobile + PC client memory/storage) — new scheme, FY2023+",11667.0
+FY2024-10K,10-K,2024-08-29,SBU,Storage Business Unit (enterprise/cloud/client/consumer SSDs) — scheme used FY2015-2022,4592.0
+FY2025-10K,10-K,2024-08-29,Unallocated,Unallocated (not attributed to a segment),0.0
+FY2025-10K,10-K,2025-08-28,AEBU,"Automotive Embedded Business Unit (automotive/industrial/consumer) — new scheme, FY2023+",4753.0
+FY2025-10K,10-K,2025-08-28,All Other,All Other (immaterial/unallocated product revenue),13.0
+FY2025-10K,10-K,2025-08-28,CDBU,"Core Data Center Business Unit (mid-tier cloud/enterprise/OEM data-center memory+storage) — new scheme, FY2023+",7229.0
+FY2025-10K,10-K,2025-08-28,CMBU,"Cloud Memory Business Unit (hyperscale cloud + HBM, all data-center customers) — new scheme, FY2023+",13524.0
+FY2025-10K,10-K,2025-08-28,MCBU,"Mobile Client Business Unit (mobile + PC client memory/storage) — new scheme, FY2023+",11859.0
+FY2025-10K,10-K,2025-08-28,Unallocated,Unallocated (not attributed to a segment),0.0

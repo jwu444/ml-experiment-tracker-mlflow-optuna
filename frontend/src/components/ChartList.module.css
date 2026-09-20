@@ -1,0 +1,2 @@
+.list { display: flex; flex-direction: column; gap: var(--space-3); margin: var(--space-3) 0; }
+.list img { border: 1px solid var(--line); border-radius: var(--radius-md); background: var(--surface); }

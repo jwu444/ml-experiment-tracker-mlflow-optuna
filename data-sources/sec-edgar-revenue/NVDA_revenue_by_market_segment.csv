@@ -1,0 +1,411 @@
+filing_form,filing_date,period_end,duration,market_category,category_key,revenue_usd_millions
+10-K,2021-02-26,"Jan. 31, 2021",12 Months Ended,Total,Total,16675
+10-K,2021-02-26,"Jan. 26, 2020",12 Months Ended,Total,Total,10918
+10-K,2021-02-26,"Jan. 27, 2019",12 Months Ended,Total,Total,11716
+10-K,2021-02-26,"Jan. 31, 2021",12 Months Ended,Gaming,Gaming,7759
+10-K,2021-02-26,"Jan. 26, 2020",12 Months Ended,Gaming,Gaming,5518
+10-K,2021-02-26,"Jan. 27, 2019",12 Months Ended,Gaming,Gaming,6246
+10-K,2021-02-26,"Jan. 31, 2021",12 Months Ended,Professional Visualization,ProfessionalVisualization,1053
+10-K,2021-02-26,"Jan. 26, 2020",12 Months Ended,Professional Visualization,ProfessionalVisualization,1212
+10-K,2021-02-26,"Jan. 27, 2019",12 Months Ended,Professional Visualization,ProfessionalVisualization,1130
+10-K,2021-02-26,"Jan. 31, 2021",12 Months Ended,Data Center,DataCenter,6696
+10-K,2021-02-26,"Jan. 26, 2020",12 Months Ended,Data Center,DataCenter,2983
+10-K,2021-02-26,"Jan. 27, 2019",12 Months Ended,Data Center,DataCenter,2932
+10-K,2021-02-26,"Jan. 31, 2021",12 Months Ended,Automotive,Automotive,536
+10-K,2021-02-26,"Jan. 26, 2020",12 Months Ended,Automotive,Automotive,700
+10-K,2021-02-26,"Jan. 27, 2019",12 Months Ended,Automotive,Automotive,641
+10-K,2021-02-26,"Jan. 31, 2021",12 Months Ended,OEM &amp; Other,OEMAndOther,631
+10-K,2021-02-26,"Jan. 26, 2020",12 Months Ended,OEM &amp; Other,OEMAndOther,505
+10-K,2021-02-26,"Jan. 27, 2019",12 Months Ended,OEM &amp; Other,OEMAndOther,767
+10-K,2022-03-18,"Jan. 30, 2022",12 Months Ended,Total,Total,26914
+10-K,2022-03-18,"Jan. 31, 2021",12 Months Ended,Total,Total,16675
+10-K,2022-03-18,"Jan. 26, 2020",12 Months Ended,Total,Total,10918
+10-K,2022-03-18,"Jan. 30, 2022",12 Months Ended,Gaming,Gaming,12462
+10-K,2022-03-18,"Jan. 31, 2021",12 Months Ended,Gaming,Gaming,7759
+10-K,2022-03-18,"Jan. 26, 2020",12 Months Ended,Gaming,Gaming,5518
+10-K,2022-03-18,"Jan. 30, 2022",12 Months Ended,Data Center,DataCenter,10613
+10-K,2022-03-18,"Jan. 31, 2021",12 Months Ended,Data Center,DataCenter,6696
+10-K,2022-03-18,"Jan. 26, 2020",12 Months Ended,Data Center,DataCenter,2983
+10-K,2022-03-18,"Jan. 30, 2022",12 Months Ended,Professional Visualization,ProfessionalVisualization,2111
+10-K,2022-03-18,"Jan. 31, 2021",12 Months Ended,Professional Visualization,ProfessionalVisualization,1053
+10-K,2022-03-18,"Jan. 26, 2020",12 Months Ended,Professional Visualization,ProfessionalVisualization,1212
+10-K,2022-03-18,"Jan. 30, 2022",12 Months Ended,Automotive,Automotive,566
+10-K,2022-03-18,"Jan. 31, 2021",12 Months Ended,Automotive,Automotive,536
+10-K,2022-03-18,"Jan. 26, 2020",12 Months Ended,Automotive,Automotive,700
+10-K,2022-03-18,"Jan. 30, 2022",12 Months Ended,OEM &amp; Other,OEMAndOther,1162
+10-K,2022-03-18,"Jan. 31, 2021",12 Months Ended,OEM &amp; Other,OEMAndOther,631
+10-K,2022-03-18,"Jan. 26, 2020",12 Months Ended,OEM &amp; Other,OEMAndOther,505
+10-Q,2022-05-27,"May 01, 2022",3 Months Ended,Total,Total,8288
+10-Q,2022-05-27,"May 02, 2021",3 Months Ended,Total,Total,5661
+10-Q,2022-05-27,"May 01, 2022",3 Months Ended,Gaming,Gaming,3620
+10-Q,2022-05-27,"May 02, 2021",3 Months Ended,Gaming,Gaming,2760
+10-Q,2022-05-27,"May 01, 2022",3 Months Ended,Data Center,DataCenter,3750
+10-Q,2022-05-27,"May 02, 2021",3 Months Ended,Data Center,DataCenter,2048
+10-Q,2022-05-27,"May 01, 2022",3 Months Ended,Professional Visualization,ProfessionalVisualization,622
+10-Q,2022-05-27,"May 02, 2021",3 Months Ended,Professional Visualization,ProfessionalVisualization,372
+10-Q,2022-05-27,"May 01, 2022",3 Months Ended,Automotive,Automotive,138
+10-Q,2022-05-27,"May 02, 2021",3 Months Ended,Automotive,Automotive,154
+10-Q,2022-05-27,"May 01, 2022",3 Months Ended,OEM and Other,OEMAndOther,158
+10-Q,2022-05-27,"May 02, 2021",3 Months Ended,OEM and Other,OEMAndOther,327
+10-Q,2022-08-31,"Jul. 31, 2022",3 Months Ended,Total,Total,6704
+10-Q,2022-08-31,"Aug. 01, 2021",3 Months Ended,Total,Total,6507
+10-Q,2022-08-31,"Jul. 31, 2022",6 Months Ended,Total,Total,14992
+10-Q,2022-08-31,"Aug. 01, 2021",6 Months Ended,Total,Total,12168
+10-Q,2022-08-31,"Jul. 31, 2022",3 Months Ended,Gaming,Gaming,2042
+10-Q,2022-08-31,"Aug. 01, 2021",3 Months Ended,Gaming,Gaming,3061
+10-Q,2022-08-31,"Jul. 31, 2022",6 Months Ended,Gaming,Gaming,5662
+10-Q,2022-08-31,"Aug. 01, 2021",6 Months Ended,Gaming,Gaming,5821
+10-Q,2022-08-31,"Jul. 31, 2022",3 Months Ended,Data Center,DataCenter,3806
+10-Q,2022-08-31,"Aug. 01, 2021",3 Months Ended,Data Center,DataCenter,2366
+10-Q,2022-08-31,"Jul. 31, 2022",6 Months Ended,Data Center,DataCenter,7556
+10-Q,2022-08-31,"Aug. 01, 2021",6 Months Ended,Data Center,DataCenter,4414
+10-Q,2022-08-31,"Jul. 31, 2022",3 Months Ended,Professional Visualization,ProfessionalVisualization,496
+10-Q,2022-08-31,"Aug. 01, 2021",3 Months Ended,Professional Visualization,ProfessionalVisualization,519
+10-Q,2022-08-31,"Jul. 31, 2022",6 Months Ended,Professional Visualization,ProfessionalVisualization,1118
+10-Q,2022-08-31,"Aug. 01, 2021",6 Months Ended,Professional Visualization,ProfessionalVisualization,891
+10-Q,2022-08-31,"Jul. 31, 2022",3 Months Ended,Automotive,Automotive,220
+10-Q,2022-08-31,"Aug. 01, 2021",3 Months Ended,Automotive,Automotive,152
+10-Q,2022-08-31,"Jul. 31, 2022",6 Months Ended,Automotive,Automotive,358
+10-Q,2022-08-31,"Aug. 01, 2021",6 Months Ended,Automotive,Automotive,306
+10-Q,2022-08-31,"Jul. 31, 2022",3 Months Ended,OEM and Other,OEMAndOther,140
+10-Q,2022-08-31,"Aug. 01, 2021",3 Months Ended,OEM and Other,OEMAndOther,409
+10-Q,2022-08-31,"Jul. 31, 2022",6 Months Ended,OEM and Other,OEMAndOther,298
+10-Q,2022-08-31,"Aug. 01, 2021",6 Months Ended,OEM and Other,OEMAndOther,736
+10-Q,2022-11-18,"Oct. 30, 2022",3 Months Ended,Total,Total,5931
+10-Q,2022-11-18,"Oct. 31, 2021",3 Months Ended,Total,Total,7103
+10-Q,2022-11-18,"Oct. 30, 2022",9 Months Ended,Total,Total,20923
+10-Q,2022-11-18,"Oct. 31, 2021",9 Months Ended,Total,Total,19271
+10-Q,2022-11-18,"Oct. 30, 2022",3 Months Ended,Data Center,DataCenter,3833
+10-Q,2022-11-18,"Oct. 31, 2021",3 Months Ended,Data Center,DataCenter,2936
+10-Q,2022-11-18,"Oct. 30, 2022",9 Months Ended,Data Center,DataCenter,11389
+10-Q,2022-11-18,"Oct. 31, 2021",9 Months Ended,Data Center,DataCenter,7350
+10-Q,2022-11-18,"Oct. 30, 2022",3 Months Ended,Gaming,Gaming,1574
+10-Q,2022-11-18,"Oct. 31, 2021",3 Months Ended,Gaming,Gaming,3221
+10-Q,2022-11-18,"Oct. 30, 2022",9 Months Ended,Gaming,Gaming,7236
+10-Q,2022-11-18,"Oct. 31, 2021",9 Months Ended,Gaming,Gaming,9042
+10-Q,2022-11-18,"Oct. 30, 2022",3 Months Ended,Professional Visualization,ProfessionalVisualization,200
+10-Q,2022-11-18,"Oct. 31, 2021",3 Months Ended,Professional Visualization,ProfessionalVisualization,577
+10-Q,2022-11-18,"Oct. 30, 2022",9 Months Ended,Professional Visualization,ProfessionalVisualization,1318
+10-Q,2022-11-18,"Oct. 31, 2021",9 Months Ended,Professional Visualization,ProfessionalVisualization,1468
+10-Q,2022-11-18,"Oct. 30, 2022",3 Months Ended,Automotive,Automotive,251
+10-Q,2022-11-18,"Oct. 31, 2021",3 Months Ended,Automotive,Automotive,135
+10-Q,2022-11-18,"Oct. 30, 2022",9 Months Ended,Automotive,Automotive,609
+10-Q,2022-11-18,"Oct. 31, 2021",9 Months Ended,Automotive,Automotive,441
+10-Q,2022-11-18,"Oct. 30, 2022",3 Months Ended,OEM and Other,OEMAndOther,73
+10-Q,2022-11-18,"Oct. 31, 2021",3 Months Ended,OEM and Other,OEMAndOther,234
+10-Q,2022-11-18,"Oct. 30, 2022",9 Months Ended,OEM and Other,OEMAndOther,371
+10-Q,2022-11-18,"Oct. 31, 2021",9 Months Ended,OEM and Other,OEMAndOther,970
+10-K,2023-02-24,"Jan. 29, 2023",12 Months Ended,Total,Total,26974
+10-K,2023-02-24,"Jan. 30, 2022",12 Months Ended,Total,Total,26914
+10-K,2023-02-24,"Jan. 31, 2021",12 Months Ended,Total,Total,16675
+10-K,2023-02-24,"Jan. 29, 2023",12 Months Ended,Data Center,DataCenter,15005
+10-K,2023-02-24,"Jan. 30, 2022",12 Months Ended,Data Center,DataCenter,10613
+10-K,2023-02-24,"Jan. 31, 2021",12 Months Ended,Data Center,DataCenter,6696
+10-K,2023-02-24,"Jan. 29, 2023",12 Months Ended,Gaming,Gaming,9067
+10-K,2023-02-24,"Jan. 30, 2022",12 Months Ended,Gaming,Gaming,12462
+10-K,2023-02-24,"Jan. 31, 2021",12 Months Ended,Gaming,Gaming,7759
+10-K,2023-02-24,"Jan. 29, 2023",12 Months Ended,Professional Visualization,ProfessionalVisualization,1544
+10-K,2023-02-24,"Jan. 30, 2022",12 Months Ended,Professional Visualization,ProfessionalVisualization,2111
+10-K,2023-02-24,"Jan. 31, 2021",12 Months Ended,Professional Visualization,ProfessionalVisualization,1053
+10-K,2023-02-24,"Jan. 29, 2023",12 Months Ended,Automotive,Automotive,903
+10-K,2023-02-24,"Jan. 30, 2022",12 Months Ended,Automotive,Automotive,566
+10-K,2023-02-24,"Jan. 31, 2021",12 Months Ended,Automotive,Automotive,536
+10-K,2023-02-24,"Jan. 29, 2023",12 Months Ended,OEM &amp; Other,OEMAndOther,455
+10-K,2023-02-24,"Jan. 30, 2022",12 Months Ended,OEM &amp; Other,OEMAndOther,1162
+10-K,2023-02-24,"Jan. 31, 2021",12 Months Ended,OEM &amp; Other,OEMAndOther,631
+10-Q,2023-05-26,"Apr. 30, 2023",3 Months Ended,Total,Total,7192
+10-Q,2023-05-26,"May 01, 2022",3 Months Ended,Total,Total,8288
+10-Q,2023-05-26,"Apr. 30, 2023",3 Months Ended,Data Center,DataCenter,4284
+10-Q,2023-05-26,"May 01, 2022",3 Months Ended,Data Center,DataCenter,3750
+10-Q,2023-05-26,"Apr. 30, 2023",3 Months Ended,Gaming,Gaming,2240
+10-Q,2023-05-26,"May 01, 2022",3 Months Ended,Gaming,Gaming,3620
+10-Q,2023-05-26,"Apr. 30, 2023",3 Months Ended,Professional Visualization,ProfessionalVisualization,295
+10-Q,2023-05-26,"May 01, 2022",3 Months Ended,Professional Visualization,ProfessionalVisualization,622
+10-Q,2023-05-26,"Apr. 30, 2023",3 Months Ended,Automotive,Automotive,296
+10-Q,2023-05-26,"May 01, 2022",3 Months Ended,Automotive,Automotive,138
+10-Q,2023-05-26,"Apr. 30, 2023",3 Months Ended,OEM and Other,OEMAndOther,77
+10-Q,2023-05-26,"May 01, 2022",3 Months Ended,OEM and Other,OEMAndOther,158
+10-Q,2023-08-28,"Jul. 30, 2023",3 Months Ended,Total,Total,13507
+10-Q,2023-08-28,"Jul. 31, 2022",3 Months Ended,Total,Total,6704
+10-Q,2023-08-28,"Jul. 30, 2023",6 Months Ended,Total,Total,20699
+10-Q,2023-08-28,"Jul. 31, 2022",6 Months Ended,Total,Total,14992
+10-Q,2023-08-28,"Jul. 30, 2023",3 Months Ended,Data Center,DataCenter,10323
+10-Q,2023-08-28,"Jul. 31, 2022",3 Months Ended,Data Center,DataCenter,3806
+10-Q,2023-08-28,"Jul. 30, 2023",6 Months Ended,Data Center,DataCenter,14607
+10-Q,2023-08-28,"Jul. 31, 2022",6 Months Ended,Data Center,DataCenter,7556
+10-Q,2023-08-28,"Jul. 30, 2023",3 Months Ended,Gaming,Gaming,2486
+10-Q,2023-08-28,"Jul. 31, 2022",3 Months Ended,Gaming,Gaming,2042
+10-Q,2023-08-28,"Jul. 30, 2023",6 Months Ended,Gaming,Gaming,4726
+10-Q,2023-08-28,"Jul. 31, 2022",6 Months Ended,Gaming,Gaming,5662
+10-Q,2023-08-28,"Jul. 30, 2023",3 Months Ended,Professional Visualization,ProfessionalVisualization,379
+10-Q,2023-08-28,"Jul. 31, 2022",3 Months Ended,Professional Visualization,ProfessionalVisualization,496
+10-Q,2023-08-28,"Jul. 30, 2023",6 Months Ended,Professional Visualization,ProfessionalVisualization,674
+10-Q,2023-08-28,"Jul. 31, 2022",6 Months Ended,Professional Visualization,ProfessionalVisualization,1118
+10-Q,2023-08-28,"Jul. 30, 2023",3 Months Ended,Automotive,Automotive,253
+10-Q,2023-08-28,"Jul. 31, 2022",3 Months Ended,Automotive,Automotive,220
+10-Q,2023-08-28,"Jul. 30, 2023",6 Months Ended,Automotive,Automotive,549
+10-Q,2023-08-28,"Jul. 31, 2022",6 Months Ended,Automotive,Automotive,358
+10-Q,2023-08-28,"Jul. 30, 2023",3 Months Ended,OEM and Other,OEMAndOther,66
+10-Q,2023-08-28,"Jul. 31, 2022",3 Months Ended,OEM and Other,OEMAndOther,140
+10-Q,2023-08-28,"Jul. 30, 2023",6 Months Ended,OEM and Other,OEMAndOther,143
+10-Q,2023-08-28,"Jul. 31, 2022",6 Months Ended,OEM and Other,OEMAndOther,298
+10-Q,2023-11-21,"Oct. 29, 2023",3 Months Ended,Total,Total,18120
+10-Q,2023-11-21,"Oct. 30, 2022",3 Months Ended,Total,Total,5931
+10-Q,2023-11-21,"Oct. 29, 2023",9 Months Ended,Total,Total,38819
+10-Q,2023-11-21,"Oct. 30, 2022",9 Months Ended,Total,Total,20923
+10-Q,2023-11-21,"Oct. 29, 2023",3 Months Ended,Data Center,DataCenter,14514
+10-Q,2023-11-21,"Oct. 30, 2022",3 Months Ended,Data Center,DataCenter,3833
+10-Q,2023-11-21,"Oct. 29, 2023",9 Months Ended,Data Center,DataCenter,29121
+10-Q,2023-11-21,"Oct. 30, 2022",9 Months Ended,Data Center,DataCenter,11389
+10-Q,2023-11-21,"Oct. 29, 2023",3 Months Ended,Gaming,Gaming,2856
+10-Q,2023-11-21,"Oct. 30, 2022",3 Months Ended,Gaming,Gaming,1574
+10-Q,2023-11-21,"Oct. 29, 2023",9 Months Ended,Gaming,Gaming,7582
+10-Q,2023-11-21,"Oct. 30, 2022",9 Months Ended,Gaming,Gaming,7236
+10-Q,2023-11-21,"Oct. 29, 2023",3 Months Ended,Professional Visualization,ProfessionalVisualization,416
+10-Q,2023-11-21,"Oct. 30, 2022",3 Months Ended,Professional Visualization,ProfessionalVisualization,200
+10-Q,2023-11-21,"Oct. 29, 2023",9 Months Ended,Professional Visualization,ProfessionalVisualization,1090
+10-Q,2023-11-21,"Oct. 30, 2022",9 Months Ended,Professional Visualization,ProfessionalVisualization,1318
+10-Q,2023-11-21,"Oct. 29, 2023",3 Months Ended,Automotive,Automotive,261
+10-Q,2023-11-21,"Oct. 30, 2022",3 Months Ended,Automotive,Automotive,251
+10-Q,2023-11-21,"Oct. 29, 2023",9 Months Ended,Automotive,Automotive,810
+10-Q,2023-11-21,"Oct. 30, 2022",9 Months Ended,Automotive,Automotive,609
+10-Q,2023-11-21,"Oct. 29, 2023",3 Months Ended,OEM and Other,OEMAndOther,73
+10-Q,2023-11-21,"Oct. 30, 2022",3 Months Ended,OEM and Other,OEMAndOther,73
+10-Q,2023-11-21,"Oct. 29, 2023",9 Months Ended,OEM and Other,OEMAndOther,216
+10-Q,2023-11-21,"Oct. 30, 2022",9 Months Ended,OEM and Other,OEMAndOther,371
+10-K,2024-02-21,"Jan. 28, 2024",12 Months Ended,Total,Total,60922
+10-K,2024-02-21,"Jan. 29, 2023",12 Months Ended,Total,Total,26974
+10-K,2024-02-21,"Jan. 30, 2022",12 Months Ended,Total,Total,26914
+10-K,2024-02-21,"Jan. 28, 2024",12 Months Ended,Data Center,DataCenter,47525
+10-K,2024-02-21,"Jan. 29, 2023",12 Months Ended,Data Center,DataCenter,15005
+10-K,2024-02-21,"Jan. 30, 2022",12 Months Ended,Data Center,DataCenter,10613
+10-K,2024-02-21,"Jan. 28, 2024",12 Months Ended,Gaming,Gaming,10447
+10-K,2024-02-21,"Jan. 29, 2023",12 Months Ended,Gaming,Gaming,9067
+10-K,2024-02-21,"Jan. 30, 2022",12 Months Ended,Gaming,Gaming,12462
+10-K,2024-02-21,"Jan. 28, 2024",12 Months Ended,Professional Visualization,ProfessionalVisualization,1553
+10-K,2024-02-21,"Jan. 29, 2023",12 Months Ended,Professional Visualization,ProfessionalVisualization,1544
+10-K,2024-02-21,"Jan. 30, 2022",12 Months Ended,Professional Visualization,ProfessionalVisualization,2111
+10-K,2024-02-21,"Jan. 28, 2024",12 Months Ended,Automotive,Automotive,1091
+10-K,2024-02-21,"Jan. 29, 2023",12 Months Ended,Automotive,Automotive,903
+10-K,2024-02-21,"Jan. 30, 2022",12 Months Ended,Automotive,Automotive,566
+10-K,2024-02-21,"Jan. 28, 2024",12 Months Ended,OEM and Other,OEMAndOther,306
+10-K,2024-02-21,"Jan. 29, 2023",12 Months Ended,OEM and Other,OEMAndOther,455
+10-K,2024-02-21,"Jan. 30, 2022",12 Months Ended,OEM and Other,OEMAndOther,1162
+10-Q,2024-05-29,"Apr. 28, 2024",3 Months Ended,Total,Total,26044
+10-Q,2024-05-29,"Apr. 30, 2023",3 Months Ended,Total,Total,7192
+10-Q,2024-05-29,"Apr. 28, 2024",3 Months Ended,Data Center,DataCenter,22563
+10-Q,2024-05-29,"Apr. 30, 2023",3 Months Ended,Data Center,DataCenter,4284
+10-Q,2024-05-29,"Apr. 28, 2024",3 Months Ended,Compute,Compute,19392
+10-Q,2024-05-29,"Apr. 30, 2023",3 Months Ended,Compute,Compute,3357
+10-Q,2024-05-29,"Apr. 28, 2024",3 Months Ended,Networking,Networking,3171
+10-Q,2024-05-29,"Apr. 30, 2023",3 Months Ended,Networking,Networking,927
+10-Q,2024-05-29,"Apr. 28, 2024",3 Months Ended,Gaming,Gaming,2647
+10-Q,2024-05-29,"Apr. 30, 2023",3 Months Ended,Gaming,Gaming,2240
+10-Q,2024-05-29,"Apr. 28, 2024",3 Months Ended,Professional Visualization,ProfessionalVisualization,427
+10-Q,2024-05-29,"Apr. 30, 2023",3 Months Ended,Professional Visualization,ProfessionalVisualization,295
+10-Q,2024-05-29,"Apr. 28, 2024",3 Months Ended,Automotive,Automotive,329
+10-Q,2024-05-29,"Apr. 30, 2023",3 Months Ended,Automotive,Automotive,296
+10-Q,2024-05-29,"Apr. 28, 2024",3 Months Ended,OEM and Other,OEMAndOther,78
+10-Q,2024-05-29,"Apr. 30, 2023",3 Months Ended,OEM and Other,OEMAndOther,77
+10-Q,2024-08-28,"Jul. 28, 2024",3 Months Ended,Total,Total,30040
+10-Q,2024-08-28,"Jul. 30, 2023",3 Months Ended,Total,Total,13507
+10-Q,2024-08-28,"Jul. 28, 2024",6 Months Ended,Total,Total,56084
+10-Q,2024-08-28,"Jul. 30, 2023",6 Months Ended,Total,Total,20699
+10-Q,2024-08-28,"Jul. 28, 2024",3 Months Ended,Data Center,DataCenter,26272
+10-Q,2024-08-28,"Jul. 30, 2023",3 Months Ended,Data Center,DataCenter,10323
+10-Q,2024-08-28,"Jul. 28, 2024",6 Months Ended,Data Center,DataCenter,48835
+10-Q,2024-08-28,"Jul. 30, 2023",6 Months Ended,Data Center,DataCenter,14607
+10-Q,2024-08-28,"Jul. 28, 2024",3 Months Ended,Compute,Compute,22604
+10-Q,2024-08-28,"Jul. 30, 2023",3 Months Ended,Compute,Compute,8612
+10-Q,2024-08-28,"Jul. 28, 2024",6 Months Ended,Compute,Compute,41996
+10-Q,2024-08-28,"Jul. 30, 2023",6 Months Ended,Compute,Compute,11969
+10-Q,2024-08-28,"Jul. 28, 2024",3 Months Ended,Networking,Networking,3668
+10-Q,2024-08-28,"Jul. 30, 2023",3 Months Ended,Networking,Networking,1711
+10-Q,2024-08-28,"Jul. 28, 2024",6 Months Ended,Networking,Networking,6839
+10-Q,2024-08-28,"Jul. 30, 2023",6 Months Ended,Networking,Networking,2638
+10-Q,2024-08-28,"Jul. 28, 2024",3 Months Ended,Gaming,Gaming,2880
+10-Q,2024-08-28,"Jul. 30, 2023",3 Months Ended,Gaming,Gaming,2486
+10-Q,2024-08-28,"Jul. 28, 2024",6 Months Ended,Gaming,Gaming,5527
+10-Q,2024-08-28,"Jul. 30, 2023",6 Months Ended,Gaming,Gaming,4726
+10-Q,2024-08-28,"Jul. 28, 2024",3 Months Ended,Professional Visualization,ProfessionalVisualization,454
+10-Q,2024-08-28,"Jul. 30, 2023",3 Months Ended,Professional Visualization,ProfessionalVisualization,379
+10-Q,2024-08-28,"Jul. 28, 2024",6 Months Ended,Professional Visualization,ProfessionalVisualization,881
+10-Q,2024-08-28,"Jul. 30, 2023",6 Months Ended,Professional Visualization,ProfessionalVisualization,674
+10-Q,2024-08-28,"Jul. 28, 2024",3 Months Ended,Automotive,Automotive,346
+10-Q,2024-08-28,"Jul. 30, 2023",3 Months Ended,Automotive,Automotive,253
+10-Q,2024-08-28,"Jul. 28, 2024",6 Months Ended,Automotive,Automotive,675
+10-Q,2024-08-28,"Jul. 30, 2023",6 Months Ended,Automotive,Automotive,549
+10-Q,2024-08-28,"Jul. 28, 2024",3 Months Ended,OEM and Other,OEMAndOther,88
+10-Q,2024-08-28,"Jul. 30, 2023",3 Months Ended,OEM and Other,OEMAndOther,66
+10-Q,2024-08-28,"Jul. 28, 2024",6 Months Ended,OEM and Other,OEMAndOther,166
+10-Q,2024-08-28,"Jul. 30, 2023",6 Months Ended,OEM and Other,OEMAndOther,143
+10-Q,2024-11-20,"Oct. 27, 2024",3 Months Ended,Total,Total,35082
+10-Q,2024-11-20,"Oct. 29, 2023",3 Months Ended,Total,Total,18120
+10-Q,2024-11-20,"Oct. 27, 2024",9 Months Ended,Total,Total,91166
+10-Q,2024-11-20,"Oct. 29, 2023",9 Months Ended,Total,Total,38819
+10-Q,2024-11-20,"Oct. 27, 2024",3 Months Ended,Data Center,DataCenter,30771
+10-Q,2024-11-20,"Oct. 29, 2023",3 Months Ended,Data Center,DataCenter,14514
+10-Q,2024-11-20,"Oct. 27, 2024",9 Months Ended,Data Center,DataCenter,79606
+10-Q,2024-11-20,"Oct. 29, 2023",9 Months Ended,Data Center,DataCenter,29121
+10-Q,2024-11-20,"Oct. 27, 2024",3 Months Ended,Compute,Compute,27644
+10-Q,2024-11-20,"Oct. 29, 2023",3 Months Ended,Compute,Compute,11908
+10-Q,2024-11-20,"Oct. 27, 2024",9 Months Ended,Compute,Compute,69640
+10-Q,2024-11-20,"Oct. 29, 2023",9 Months Ended,Compute,Compute,23877
+10-Q,2024-11-20,"Oct. 27, 2024",3 Months Ended,Networking,Networking,3127
+10-Q,2024-11-20,"Oct. 29, 2023",3 Months Ended,Networking,Networking,2606
+10-Q,2024-11-20,"Oct. 27, 2024",9 Months Ended,Networking,Networking,9966
+10-Q,2024-11-20,"Oct. 29, 2023",9 Months Ended,Networking,Networking,5244
+10-Q,2024-11-20,"Oct. 27, 2024",3 Months Ended,Gaming,Gaming,3279
+10-Q,2024-11-20,"Oct. 29, 2023",3 Months Ended,Gaming,Gaming,2856
+10-Q,2024-11-20,"Oct. 27, 2024",9 Months Ended,Gaming,Gaming,8806
+10-Q,2024-11-20,"Oct. 29, 2023",9 Months Ended,Gaming,Gaming,7582
+10-Q,2024-11-20,"Oct. 27, 2024",3 Months Ended,Professional Visualization,ProfessionalVisualization,486
+10-Q,2024-11-20,"Oct. 29, 2023",3 Months Ended,Professional Visualization,ProfessionalVisualization,416
+10-Q,2024-11-20,"Oct. 27, 2024",9 Months Ended,Professional Visualization,ProfessionalVisualization,1367
+10-Q,2024-11-20,"Oct. 29, 2023",9 Months Ended,Professional Visualization,ProfessionalVisualization,1090
+10-Q,2024-11-20,"Oct. 27, 2024",3 Months Ended,Automotive,Automotive,449
+10-Q,2024-11-20,"Oct. 29, 2023",3 Months Ended,Automotive,Automotive,261
+10-Q,2024-11-20,"Oct. 27, 2024",9 Months Ended,Automotive,Automotive,1124
+10-Q,2024-11-20,"Oct. 29, 2023",9 Months Ended,Automotive,Automotive,810
+10-Q,2024-11-20,"Oct. 27, 2024",3 Months Ended,OEM and Other,OEMAndOther,97
+10-Q,2024-11-20,"Oct. 29, 2023",3 Months Ended,OEM and Other,OEMAndOther,73
+10-Q,2024-11-20,"Oct. 27, 2024",9 Months Ended,OEM and Other,OEMAndOther,263
+10-Q,2024-11-20,"Oct. 29, 2023",9 Months Ended,OEM and Other,OEMAndOther,216
+10-K,2025-02-26,"Jan. 26, 2025",12 Months Ended,Total,Total,130497
+10-K,2025-02-26,"Jan. 28, 2024",12 Months Ended,Total,Total,60922
+10-K,2025-02-26,"Jan. 29, 2023",12 Months Ended,Total,Total,26974
+10-K,2025-02-26,"Jan. 26, 2025",12 Months Ended,Data Center,DataCenter,115186
+10-K,2025-02-26,"Jan. 28, 2024",12 Months Ended,Data Center,DataCenter,47525
+10-K,2025-02-26,"Jan. 29, 2023",12 Months Ended,Data Center,DataCenter,15005
+10-K,2025-02-26,"Jan. 26, 2025",12 Months Ended,Compute,Compute,102196
+10-K,2025-02-26,"Jan. 28, 2024",12 Months Ended,Compute,Compute,38950
+10-K,2025-02-26,"Jan. 29, 2023",12 Months Ended,Compute,Compute,11317
+10-K,2025-02-26,"Jan. 26, 2025",12 Months Ended,Networking,Networking,12990
+10-K,2025-02-26,"Jan. 28, 2024",12 Months Ended,Networking,Networking,8575
+10-K,2025-02-26,"Jan. 29, 2023",12 Months Ended,Networking,Networking,3688
+10-K,2025-02-26,"Jan. 26, 2025",12 Months Ended,Gaming,Gaming,11350
+10-K,2025-02-26,"Jan. 28, 2024",12 Months Ended,Gaming,Gaming,10447
+10-K,2025-02-26,"Jan. 29, 2023",12 Months Ended,Gaming,Gaming,9067
+10-K,2025-02-26,"Jan. 26, 2025",12 Months Ended,Professional Visualization,ProfessionalVisualization,1878
+10-K,2025-02-26,"Jan. 28, 2024",12 Months Ended,Professional Visualization,ProfessionalVisualization,1553
+10-K,2025-02-26,"Jan. 29, 2023",12 Months Ended,Professional Visualization,ProfessionalVisualization,1544
+10-K,2025-02-26,"Jan. 26, 2025",12 Months Ended,Automotive,Automotive,1694
+10-K,2025-02-26,"Jan. 28, 2024",12 Months Ended,Automotive,Automotive,1091
+10-K,2025-02-26,"Jan. 29, 2023",12 Months Ended,Automotive,Automotive,903
+10-K,2025-02-26,"Jan. 26, 2025",12 Months Ended,OEM and Other,OEMAndOther,389
+10-K,2025-02-26,"Jan. 28, 2024",12 Months Ended,OEM and Other,OEMAndOther,306
+10-K,2025-02-26,"Jan. 29, 2023",12 Months Ended,OEM and Other,OEMAndOther,455
+10-Q,2025-05-28,"Apr. 27, 2025",3 Months Ended,Total,Total,44062
+10-Q,2025-05-28,"Apr. 28, 2024",3 Months Ended,Total,Total,26044
+10-Q,2025-05-28,"Apr. 27, 2025",3 Months Ended,Data Center,DataCenter,39112
+10-Q,2025-05-28,"Apr. 28, 2024",3 Months Ended,Data Center,DataCenter,22563
+10-Q,2025-05-28,"Apr. 27, 2025",3 Months Ended,Compute,Compute,34155
+10-Q,2025-05-28,"Apr. 28, 2024",3 Months Ended,Compute,Compute,19392
+10-Q,2025-05-28,"Apr. 27, 2025",3 Months Ended,Networking,Networking,4957
+10-Q,2025-05-28,"Apr. 28, 2024",3 Months Ended,Networking,Networking,3171
+10-Q,2025-05-28,"Apr. 27, 2025",3 Months Ended,Gaming,Gaming,3763
+10-Q,2025-05-28,"Apr. 28, 2024",3 Months Ended,Gaming,Gaming,2647
+10-Q,2025-05-28,"Apr. 27, 2025",3 Months Ended,Professional Visualization,ProfessionalVisualization,509
+10-Q,2025-05-28,"Apr. 28, 2024",3 Months Ended,Professional Visualization,ProfessionalVisualization,427
+10-Q,2025-05-28,"Apr. 27, 2025",3 Months Ended,Automotive,Automotive,567
+10-Q,2025-05-28,"Apr. 28, 2024",3 Months Ended,Automotive,Automotive,329
+10-Q,2025-05-28,"Apr. 27, 2025",3 Months Ended,OEM and Other,OEMAndOther,111
+10-Q,2025-05-28,"Apr. 28, 2024",3 Months Ended,OEM and Other,OEMAndOther,78
+10-Q,2025-08-27,"Jul. 27, 2025",3 Months Ended,Total,Total,46743
+10-Q,2025-08-27,"Jul. 28, 2024",3 Months Ended,Total,Total,30040
+10-Q,2025-08-27,"Jul. 27, 2025",6 Months Ended,Total,Total,90805
+10-Q,2025-08-27,"Jul. 28, 2024",6 Months Ended,Total,Total,56084
+10-Q,2025-08-27,"Jul. 27, 2025",3 Months Ended,Data Center,DataCenter,41096
+10-Q,2025-08-27,"Jul. 28, 2024",3 Months Ended,Data Center,DataCenter,26272
+10-Q,2025-08-27,"Jul. 27, 2025",6 Months Ended,Data Center,DataCenter,80208
+10-Q,2025-08-27,"Jul. 28, 2024",6 Months Ended,Data Center,DataCenter,48835
+10-Q,2025-08-27,"Jul. 27, 2025",3 Months Ended,Compute,Compute,33844
+10-Q,2025-08-27,"Jul. 28, 2024",3 Months Ended,Compute,Compute,22604
+10-Q,2025-08-27,"Jul. 27, 2025",6 Months Ended,Compute,Compute,67999
+10-Q,2025-08-27,"Jul. 28, 2024",6 Months Ended,Compute,Compute,41996
+10-Q,2025-08-27,"Jul. 27, 2025",3 Months Ended,Networking,Networking,7252
+10-Q,2025-08-27,"Jul. 28, 2024",3 Months Ended,Networking,Networking,3668
+10-Q,2025-08-27,"Jul. 27, 2025",6 Months Ended,Networking,Networking,12209
+10-Q,2025-08-27,"Jul. 28, 2024",6 Months Ended,Networking,Networking,6839
+10-Q,2025-08-27,"Jul. 27, 2025",3 Months Ended,Gaming,Gaming,4287
+10-Q,2025-08-27,"Jul. 28, 2024",3 Months Ended,Gaming,Gaming,2880
+10-Q,2025-08-27,"Jul. 27, 2025",6 Months Ended,Gaming,Gaming,8050
+10-Q,2025-08-27,"Jul. 28, 2024",6 Months Ended,Gaming,Gaming,5527
+10-Q,2025-08-27,"Jul. 27, 2025",3 Months Ended,Professional Visualization,ProfessionalVisualization,601
+10-Q,2025-08-27,"Jul. 28, 2024",3 Months Ended,Professional Visualization,ProfessionalVisualization,454
+10-Q,2025-08-27,"Jul. 27, 2025",6 Months Ended,Professional Visualization,ProfessionalVisualization,1110
+10-Q,2025-08-27,"Jul. 28, 2024",6 Months Ended,Professional Visualization,ProfessionalVisualization,881
+10-Q,2025-08-27,"Jul. 27, 2025",3 Months Ended,Automotive,Automotive,586
+10-Q,2025-08-27,"Jul. 28, 2024",3 Months Ended,Automotive,Automotive,346
+10-Q,2025-08-27,"Jul. 27, 2025",6 Months Ended,Automotive,Automotive,1153
+10-Q,2025-08-27,"Jul. 28, 2024",6 Months Ended,Automotive,Automotive,675
+10-Q,2025-08-27,"Jul. 27, 2025",3 Months Ended,OEM and Other,OEMAndOther,173
+10-Q,2025-08-27,"Jul. 28, 2024",3 Months Ended,OEM and Other,OEMAndOther,88
+10-Q,2025-08-27,"Jul. 27, 2025",6 Months Ended,OEM and Other,OEMAndOther,284
+10-Q,2025-08-27,"Jul. 28, 2024",6 Months Ended,OEM and Other,OEMAndOther,166
+10-Q,2025-11-19,"Oct. 26, 2025",3 Months Ended,Total,Total,57006
+10-Q,2025-11-19,"Oct. 27, 2024",3 Months Ended,Total,Total,35082
+10-Q,2025-11-19,"Oct. 26, 2025",9 Months Ended,Total,Total,147811
+10-Q,2025-11-19,"Oct. 27, 2024",9 Months Ended,Total,Total,91166
+10-Q,2025-11-19,"Oct. 26, 2025",3 Months Ended,Data Center,DataCenter,51215
+10-Q,2025-11-19,"Oct. 27, 2024",3 Months Ended,Data Center,DataCenter,30771
+10-Q,2025-11-19,"Oct. 26, 2025",9 Months Ended,Data Center,DataCenter,131423
+10-Q,2025-11-19,"Oct. 27, 2024",9 Months Ended,Data Center,DataCenter,79606
+10-Q,2025-11-19,"Oct. 26, 2025",3 Months Ended,Compute,Compute,43028
+10-Q,2025-11-19,"Oct. 27, 2024",3 Months Ended,Compute,Compute,27644
+10-Q,2025-11-19,"Oct. 26, 2025",9 Months Ended,Compute,Compute,111027
+10-Q,2025-11-19,"Oct. 27, 2024",9 Months Ended,Compute,Compute,69640
+10-Q,2025-11-19,"Oct. 26, 2025",3 Months Ended,Networking,Networking,8187
+10-Q,2025-11-19,"Oct. 27, 2024",3 Months Ended,Networking,Networking,3127
+10-Q,2025-11-19,"Oct. 26, 2025",9 Months Ended,Networking,Networking,20396
+10-Q,2025-11-19,"Oct. 27, 2024",9 Months Ended,Networking,Networking,9966
+10-Q,2025-11-19,"Oct. 26, 2025",3 Months Ended,Gaming,Gaming,4265
+10-Q,2025-11-19,"Oct. 27, 2024",3 Months Ended,Gaming,Gaming,3279
+10-Q,2025-11-19,"Oct. 26, 2025",9 Months Ended,Gaming,Gaming,12315
+10-Q,2025-11-19,"Oct. 27, 2024",9 Months Ended,Gaming,Gaming,8806
+10-Q,2025-11-19,"Oct. 26, 2025",3 Months Ended,Professional Visualization,ProfessionalVisualization,760
+10-Q,2025-11-19,"Oct. 27, 2024",3 Months Ended,Professional Visualization,ProfessionalVisualization,486
+10-Q,2025-11-19,"Oct. 26, 2025",9 Months Ended,Professional Visualization,ProfessionalVisualization,1870
+10-Q,2025-11-19,"Oct. 27, 2024",9 Months Ended,Professional Visualization,ProfessionalVisualization,1367
+10-Q,2025-11-19,"Oct. 26, 2025",3 Months Ended,Automotive,Automotive,592
+10-Q,2025-11-19,"Oct. 27, 2024",3 Months Ended,Automotive,Automotive,449
+10-Q,2025-11-19,"Oct. 26, 2025",9 Months Ended,Automotive,Automotive,1745
+10-Q,2025-11-19,"Oct. 27, 2024",9 Months Ended,Automotive,Automotive,1124
+10-Q,2025-11-19,"Oct. 26, 2025",3 Months Ended,OEM and Other,OEMAndOther,174
+10-Q,2025-11-19,"Oct. 27, 2024",3 Months Ended,OEM and Other,OEMAndOther,97
+10-Q,2025-11-19,"Oct. 26, 2025",9 Months Ended,OEM and Other,OEMAndOther,458
+10-Q,2025-11-19,"Oct. 27, 2024",9 Months Ended,OEM and Other,OEMAndOther,263
+10-K,2026-02-25,"Jan. 25, 2026",12 Months Ended,Total,Total,215938
+10-K,2026-02-25,"Jan. 26, 2025",12 Months Ended,Total,Total,130497
+10-K,2026-02-25,"Jan. 28, 2024",12 Months Ended,Total,Total,60922
+10-K,2026-02-25,"Jan. 25, 2026",12 Months Ended,Data Center,DataCenter,193737
+10-K,2026-02-25,"Jan. 26, 2025",12 Months Ended,Data Center,DataCenter,115186
+10-K,2026-02-25,"Jan. 28, 2024",12 Months Ended,Data Center,DataCenter,47525
+10-K,2026-02-25,"Jan. 25, 2026",12 Months Ended,Compute,Compute,162361
+10-K,2026-02-25,"Jan. 26, 2025",12 Months Ended,Compute,Compute,102196
+10-K,2026-02-25,"Jan. 28, 2024",12 Months Ended,Compute,Compute,38950
+10-K,2026-02-25,"Jan. 25, 2026",12 Months Ended,Networking,Networking,31376
+10-K,2026-02-25,"Jan. 26, 2025",12 Months Ended,Networking,Networking,12990
+10-K,2026-02-25,"Jan. 28, 2024",12 Months Ended,Networking,Networking,8575
+10-K,2026-02-25,"Jan. 25, 2026",12 Months Ended,Gaming,Gaming,16042
+10-K,2026-02-25,"Jan. 26, 2025",12 Months Ended,Gaming,Gaming,11350
+10-K,2026-02-25,"Jan. 28, 2024",12 Months Ended,Gaming,Gaming,10447
+10-K,2026-02-25,"Jan. 25, 2026",12 Months Ended,Professional Visualization,ProfessionalVisualization,3191
+10-K,2026-02-25,"Jan. 26, 2025",12 Months Ended,Professional Visualization,ProfessionalVisualization,1878
+10-K,2026-02-25,"Jan. 28, 2024",12 Months Ended,Professional Visualization,ProfessionalVisualization,1553
+10-K,2026-02-25,"Jan. 25, 2026",12 Months Ended,Automotive,Automotive,2349
+10-K,2026-02-25,"Jan. 26, 2025",12 Months Ended,Automotive,Automotive,1694
+10-K,2026-02-25,"Jan. 28, 2024",12 Months Ended,Automotive,Automotive,1091
+10-K,2026-02-25,"Jan. 25, 2026",12 Months Ended,OEM and Other,OEMAndOther,619
+10-K,2026-02-25,"Jan. 26, 2025",12 Months Ended,OEM and Other,OEMAndOther,389
+10-K,2026-02-25,"Jan. 28, 2024",12 Months Ended,OEM and Other,OEMAndOther,306
+10-Q,2026-05-20,"Apr. 26, 2026",3 Months Ended,Total,Total,81615
+10-Q,2026-05-20,"Apr. 27, 2025",3 Months Ended,Total,Total,44062
+10-Q,2026-05-20,"Apr. 26, 2026",3 Months Ended,Data Center,DataCenter,75246
+10-Q,2026-05-20,"Apr. 27, 2025",3 Months Ended,Data Center,DataCenter,39112
+10-Q,2026-05-20,"Apr. 26, 2026",3 Months Ended,Hyperscale,Hyperscale,37869
+10-Q,2026-05-20,"Apr. 27, 2025",3 Months Ended,Hyperscale,Hyperscale,17599
+10-Q,2026-05-20,"Apr. 26, 2026",3 Months Ended,"AI Clouds, Industrial, &amp; Enterprise",AICloudsIndustrialEnterprise,37377
+10-Q,2026-05-20,"Apr. 27, 2025",3 Months Ended,"AI Clouds, Industrial, &amp; Enterprise",AICloudsIndustrialEnterprise,21513
+10-Q,2026-05-20,"Apr. 26, 2026",3 Months Ended,Edge Computing,EdgeComputing,6369
+10-Q,2026-05-20,"Apr. 27, 2025",3 Months Ended,Edge Computing,EdgeComputing,4950

@@ -1,0 +1,90 @@
+[tool.poetry]
+name = "csv-analysis-assistant"
+version = "0.1.0"
+description = "Upload a CSV, ask questions, get plots + stats + LLM interpretation"
+authors = ["WavePoint"]
+readme = "README.md"
+packages = [{ include = "app", from = "backend" }]
+
+[tool.poetry.dependencies]
+# Upper bound is not decoration: voyageai (D14) requires <3.15, and `^3.12`
+# claims a range this app cannot actually install on. Everything else here
+# pins 3.12 — .python-version, mypy's python_version, and CI.
+python = ">=3.12,<3.15"
+fastapi = "^0.115"
+uvicorn = { extras = ["standard"], version = "^0.30" }
+sqlalchemy = "^2.0"
+pandas = "^2.2"
+pydantic = "^2.8"
+pydantic-settings = "^2.4"
+python-multipart = "^0.0.9"
+psycopg2-binary = "^2.9.12"
+matplotlib = "^3.9"
+seaborn = "^0.13"
+anthropic = "^0.40"
+alembic = "^1.18.5"
+pgvector = "^0.5"
+mlflow = "^3.15"
+scikit-learn = "^1.9"
+optuna = "^4.0"
+# app/tracing.py imports `opentelemetry.trace` directly, so the API package is
+# declared directly too. It arrives transitively via the SDK either way, but a
+# module that imports a package nobody declared breaks the day that transitive
+# edge moves, and the traceback names our file rather than the dependency.
+opentelemetry-api = "^1.44.0"
+opentelemetry-sdk = "^1.44.0"
+opentelemetry-exporter-otlp-proto-http = "^1.44.0"
+voyageai = "^0.5.0"
+pyyaml = "^6.0.3"
+boto3 = "^1.43.83"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3"
+httpx = "^0.27"
+ruff = "^0.6"
+black = "^24.8"
+mypy = "^1.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+# Alembic-generated migrations are machine-written and routinely exceed the line
+# limit; env.py (hand-written) stays linted.
+extend-exclude = ["backend/alembic/versions"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+# FastAPI relies on calling Depends()/File()/etc. in argument defaults; exempt
+# them from flake8-bugbear B008 ("function call in default argument").
+[tool.ruff.lint.flake8-bugbear]
+extend-immutable-calls = [
+    "fastapi.Depends",
+    "fastapi.File",
+    "fastapi.Form",
+    "fastapi.Query",
+    "fastapi.Path",
+    "fastapi.Body",
+    "fastapi.Header",
+]
+
+[tool.black]
+line-length = 100
+target-version = ["py312"]
+extend-exclude = "backend/alembic/versions"
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+pythonpath = ["backend", "scripts"]
+testpaths = ["backend/tests"]
+markers = [
+    "postgres: needs a real Postgres with pgvector (set POSTGRES_TEST_URL); skipped otherwise",
+]

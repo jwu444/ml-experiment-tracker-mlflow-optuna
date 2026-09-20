@@ -1,0 +1,18 @@
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2);
+  font-family: var(--font-sans); font-weight: var(--weight-semibold);
+  border: 1px solid transparent; border-radius: var(--radius-md); cursor: pointer;
+  transition: background 120ms ease, opacity 120ms ease;
+}
+.btn[data-size="sm"] { font-size: var(--text-sm); padding: var(--space-2) var(--space-3); }
+.btn[data-size="md"] { font-size: var(--text-base); padding: var(--space-3) var(--space-4); }
+.btn[data-variant="primary"] { background: var(--accent); color: var(--accent-ink); }
+.btn[data-variant="ghost"] { background: transparent; color: var(--accent-text); border-color: var(--line); }
+.btn:disabled { opacity: 0.55; cursor: default; }
+.spinner {
+  width: 13px; height: 13px; border-radius: 50%;
+  border: 2px solid currentColor; border-top-color: transparent;
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .spinner { animation: none; } }

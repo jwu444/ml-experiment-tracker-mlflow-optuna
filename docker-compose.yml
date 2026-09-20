@@ -1,0 +1,33 @@
+# Local dev services for Project 2. Not used in CI (tests run on SQLite) and not
+# used in production (Render/Fly provide their own Postgres).
+services:
+  postgres:
+    # pgvector's own image = stock Postgres 16 + the vector extension preinstalled.
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: wavepoint
+      POSTGRES_PASSWORD: wavepoint
+      POSTGRES_DB: wavepoint
+    ports:
+      # 5433, not 5432 — avoids colliding with a Postgres already on the host.
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U wavepoint -d wavepoint"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  jaeger:
+    # Trace viewer for Phase 3's OTel spans. Nothing exports to it until then.
+    image: jaegertracing/all-in-one:1.62.0
+    environment:
+      COLLECTOR_OTLP_ENABLED: "true"
+    ports:
+      - "16686:16686"   # web UI
+      - "4317:4317"     # OTLP gRPC
+      - "4318:4318"     # OTLP HTTP
+
+volumes:
+  pgdata:

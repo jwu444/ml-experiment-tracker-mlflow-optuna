@@ -1,0 +1,42 @@
+:root {
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  color: var(--ink);
+  background: var(--bg);
+  color-scheme: light dark;
+}
+body { margin: 0; }
+img { max-width: 100%; height: auto; }
+
+:where(button, a, input, textarea, [tabindex]):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Rendered Markdown in assistant replies (preserved from index.css). */
+.markdown > :first-child { margin-top: 0; }
+.markdown > :last-child { margin-bottom: 0; }
+.markdown h1, .markdown h2, .markdown h3 {
+  font-size: var(--text-lg);
+  margin: var(--space-4) 0 var(--space-2);
+}
+.markdown code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: color-mix(in srgb, var(--muted) 15%, transparent);
+  padding: 0.1em 0.3em;
+  border-radius: var(--radius-sm);
+}
+.markdown pre {
+  background: color-mix(in srgb, var(--muted) 15%, transparent);
+  padding: var(--space-3);
+  border-radius: var(--radius-md);
+  overflow-x: auto;
+}
+.markdown pre code { background: none; padding: 0; }
+.markdown table { border-collapse: collapse; }
+.markdown th, .markdown td {
+  border: 1px solid var(--line);
+  padding: var(--space-1) var(--space-3);
+  text-align: left;
+}

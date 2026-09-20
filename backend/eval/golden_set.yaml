@@ -1,0 +1,185 @@
+# Phase 4 golden set (D43/D44). Authored blind: from GET /experiments, GET
+# /experiments (metadata only), psql over app.runs/app.experiments/app.datasets
+# (explicit metadata columns only) and mlflow.params/mlflow.latest_metrics —
+# never from note or finding prose. See backend/eval/README-authoring notes in
+# the task-6 report for the full provenance.
+#
+# Shape 1 (which model won), shape 2 (parameter ranges), shape 3 (what went
+# wrong), shape 4 (dataset/EDA questions) — five queries each.
+
+# --- Shape 1: which model won -------------------------------------------
+
+- id: which-model-won-revenue
+  query: which model performed best on the revenue nowcast?
+  relevant:
+    - [note, 5cba07a9-2e22-41eb-af13-d222ce956e3b] # persistence, best of 2, holdout rmse ~4.064e9
+    - [note, 37ec47a2-3dc5-4942-a82d-7599e11868d6] # ridge, best of 8, holdout rmse ~4.116e9 (near-tied)
+    - [diagnostic, 5cba07a9-2e22-41eb-af13-d222ce956e3b]
+    - [diagnostic, 37ec47a2-3dc5-4942-a82d-7599e11868d6]
+  notes: >
+    Persistence and ridge are statistically near-tied for best holdout rmse on
+    revenue-nowcast (~4.06e9 vs ~4.12e9), both far ahead of random_forest and
+    gradient_boosting's best runs (~12e9+). Labelled from mlflow.latest_metrics.
+
+- id: which-ridge-run-won-pc-video-card
+  query: which ridge run performed best on the PC part video-card price experiment?
+  relevant:
+    - [note, ce300a47-363c-4afe-9021-679cc8063c30] # best of 8, rmse 382.95
+    - [note, 9aee247b-a63d-4a42-8434-f54e71f009a0] # mid of 8, rmse 382.995 (near-identical)
+  notes: >
+    ce300a47 and 9aee247b are separated by 0.045 rmse — effectively tied for
+    best; a correct answer should surface both, not just the nominal winner.
+
+- id: gradient-boosting-vs-random-forest-revenue
+  query: between gradient boosting and random forest, which had the lower error on revenue nowcast?
+  relevant:
+    - [note, df3293ff-7862-402d-b96e-f842538d90b2] # random_forest best of 8, rmse ~12.06e9
+    - [note, 5f90c1ac-41b4-430c-a4e6-977c72bc9976] # gradient_boosting best of 8, rmse ~12.46e9
+  notes: random_forest's best run edges out gradient_boosting's best by holdout rmse.
+
+- id: worst-model-family-revenue
+  query: which model type had the worst results on the revenue nowcast panel?
+  relevant:
+    - [note, bc98addf-c0b4-42ac-94de-e415a89c51bd] # gradient_boosting worst of 8, rmse ~16.15e9, highest of all approved runs
+    - [note, 5f90c1ac-41b4-430c-a4e6-977c72bc9976] # gradient_boosting best of 8, still worse than random_forest's best
+    - [note, df3293ff-7862-402d-b96e-f842538d90b2] # random_forest best of 8, for contrast
+  notes: >
+    Every approved gradient_boosting run (best included) has a higher holdout
+    rmse than random_forest's best run, making gradient_boosting the
+    consistently worst family on this dataset.
+
+- id: baseline-vs-random-forest-revenue
+  query: how does the persistence baseline compare to random forest on revenue nowcast — did the simple baseline actually win?
+  relevant:
+    - [note, 5cba07a9-2e22-41eb-af13-d222ce956e3b] # persistence best, rmse ~4.06e9
+    - [note, df3293ff-7862-402d-b96e-f842538d90b2] # random_forest best, rmse ~12.06e9
+    - [diagnostic, 5cba07a9-2e22-41eb-af13-d222ce956e3b]
+  notes: Persistence's holdout rmse is roughly a third of random_forest's best.
+
+# --- Shape 2: what parameter ranges have I tried --------------------------
+
+- id: ridge-alpha-range-revenue
+  query: what alpha values have I tried for ridge on the revenue nowcast?
+  relevant:
+    - [note, 37ec47a2-3dc5-4942-a82d-7599e11868d6] # alpha 0.00249, best of 8
+    - [note, 123178f6-8e7f-412a-9d27-3ad3a400a8d1] # alpha 0.4137, mid of 8
+    - [note, 766c6785-a5f1-43a2-b041-a805f23dbea6] # alpha 1.7285, mid of 8
+    - [note, 4460e59f-a08a-4b1f-ba7c-221510bfe6ba] # alpha 66.836, worst of 8
+  notes: mlflow.params alpha values span roughly 0.0025 to 66.8 across the four approved ridge notes.
+
+- id: ridge-alpha-range-pc-video-card
+  query: what alpha values have I tried for ridge on the PC part video-card price model?
+  relevant:
+    - [note, ce300a47-363c-4afe-9021-679cc8063c30] # alpha 5.575, best of 8
+    - [note, 9aee247b-a63d-4a42-8434-f54e71f009a0] # alpha 0.0368, mid of 8
+    - [note, 2e6ca0df-8077-41a3-a412-7386acd134a4] # alpha 666.26, worst of 8
+  notes: mlflow.params alpha values span roughly 0.037 to 666 across the three approved ridge notes.
+
+- id: gradient-boosting-hyperparam-range-revenue
+  query: what learning rates and tree depths have I tried for gradient boosting on revenue nowcast?
+  relevant:
+    - [note, 5f90c1ac-41b4-430c-a4e6-977c72bc9976] # lr 0.1068, depth 7, n_estimators 240
+    - [note, 4a54687b-375a-47eb-98aa-ad3b934653af] # lr 0.0481, depth 4, n_estimators 273
+    - [note, 6c5ce196-9ef2-4a55-9d89-c03cf5ae679c] # lr 0.0054, depth 5, n_estimators 156
+    - [note, bc98addf-c0b4-42ac-94de-e415a89c51bd] # lr 0.0029, depth 4, n_estimators 170
+  notes: mlflow.params learning_rate/max_depth/n_estimators across the four approved gradient_boosting notes.
+
+- id: random-forest-hyperparam-range-revenue
+  query: what tree depths and leaf-size settings have I tried for random forest on revenue nowcast?
+  relevant:
+    - [note, df3293ff-7862-402d-b96e-f842538d90b2] # depth 12, min_samples_leaf 9
+    - [note, 382b20ce-97a9-4e47-823d-bcf41510ef5c] # depth 12, min_samples_leaf 8
+    - [note, 40b66746-27ef-497e-a39c-a92c7074825d] # depth 12, min_samples_leaf 8
+    - [note, e1d835ba-3d2a-4320-bcfd-b5408f8dc815] # depth 6, min_samples_leaf 2
+  notes: mlflow.params max_depth/min_samples_leaf across the four approved random_forest notes.
+
+- id: feature-count-comparison
+  query: how many features do the revenue-nowcast models use compared to the PC part video-card models?
+  relevant:
+    - [note, 37ec47a2-3dc5-4942-a82d-7599e11868d6] # revenue-nowcast ridge, n_features 16
+    - [note, ce300a47-363c-4afe-9021-679cc8063c30] # pc-part-video-card ridge, n_features 4
+  notes: mlflow.params n_features/feature_columns — 16 columns for revenue-nowcast vs. 4 for the video-card model.
+
+# --- Shape 3: what went wrong ---------------------------------------------
+
+- id: gradient-boosting-worse-than-baseline
+  query: which gradient boosting runs did worse than the baseline on revenue nowcast?
+  relevant:
+    - [note, 5f90c1ac-41b4-430c-a4e6-977c72bc9976] # best of 8, rmse ~12.46e9, still ~3x the baseline
+    - [note, 4a54687b-375a-47eb-98aa-ad3b934653af]
+    - [note, 6c5ce196-9ef2-4a55-9d89-c03cf5ae679c]
+    - [note, bc98addf-c0b4-42ac-94de-e415a89c51bd] # worst of 8
+  notes: All four approved gradient_boosting notes have holdout rmse well above the persistence baseline's ~4.06e9.
+
+- id: ridge-alpha-outlier-revenue
+  query: why did the high-alpha ridge run on revenue nowcast perform so much worse than the others?
+  relevant:
+    - [note, 4460e59f-a08a-4b1f-ba7c-221510bfe6ba] # alpha 66.836, worst of 8, rmse ~9.28e9 — over 2x the next-worst ridge run
+    - [note, 37ec47a2-3dc5-4942-a82d-7599e11868d6] # best of 8, alpha 0.00249, for contrast
+    - [note, 766c6785-a5f1-43a2-b041-a805f23dbea6] # mid of 8, alpha 1.7285, for contrast
+  notes: The worst ridge run's alpha is roughly 40x the next-highest approved ridge alpha, and its rmse is the only ridge result worse than the baseline by more than 2x.
+
+- id: random-forest-worst-run-settings
+  query: which random forest run on revenue nowcast had the highest error, and how does its depth and leaf setting differ from the best one?
+  relevant:
+    - [note, e1d835ba-3d2a-4320-bcfd-b5408f8dc815] # worst of 8, depth 6, min_samples_leaf 2
+    - [note, df3293ff-7862-402d-b96e-f842538d90b2] # best of 8, depth 12, min_samples_leaf 9
+  notes: The worst run uses a shallower tree (depth 6 vs 12) and a smaller leaf size (2 vs 9) than the best run.
+
+- id: runs-with-diagnostic-writeups
+  query: which runs have diagnostic write-ups explaining their residual behavior?
+  relevant:
+    - [diagnostic, 37ec47a2-3dc5-4942-a82d-7599e11868d6]
+    - [diagnostic, 5cba07a9-2e22-41eb-af13-d222ce956e3b]
+    - [diagnostic, 9aee247b-a63d-4a42-8434-f54e71f009a0]
+  notes: Exactly three app.findings rows have source_type=diagnostic in the current index.
+
+- id: pc-video-card-worst-run-diagnosis
+  query: is there a diagnostic write-up explaining why the worst PC part video-card ridge run underperformed?
+  relevant:
+    - [diagnostic, 9aee247b-a63d-4a42-8434-f54e71f009a0] # the only diagnostic finding in this experiment (on the MID run, not the worst)
+    - [note, 2e6ca0df-8077-41a3-a412-7386acd134a4] # the worst run itself, which has no diagnostic finding of its own
+  notes: >
+    A correct answer should say no diagnostic exists for the worst run
+    (2e6ca0df) and point instead to the only diagnostic finding in the
+    experiment, which is on the mid run (9aee247b).
+
+# --- Shape 4: dataset questions (must reach the eda finding, D30) ---------
+
+- id: revenue-panel-missingness
+  query: what does the revenue panel's missingness look like?
+  relevant:
+    - [eda, cb33bd5f-1d95-4908-b985-eb9d27aa5140]
+  notes: >
+    The only eda source in the index; app.datasets shows revenue-nowcast.csv
+    at 224 rows / 19 cols. All three approved eda findings for this dataset
+    concatenate into this single chunk key (D30), so this is necessarily a
+    singleton relevant set.
+
+- id: revenue-panel-shape
+  query: how many rows and columns does the revenue nowcast panel have, and what does the write-up say about its structure?
+  relevant:
+    - [eda, cb33bd5f-1d95-4908-b985-eb9d27aa5140]
+  notes: Same singleton source as above; app.datasets confirms 224 rows / 19 cols.
+
+- id: revenue-panel-feature-correlations
+  query: what does the EDA say about correlations or relationships between features in the revenue nowcast panel?
+  relevant:
+    - [eda, cb33bd5f-1d95-4908-b985-eb9d27aa5140]
+  notes: Same singleton eda source.
+
+- id: revenue-eda-and-baseline-performance
+  query: what does the revenue panel's EDA say that might explain why the persistence baseline performed so well?
+  relevant:
+    - [eda, cb33bd5f-1d95-4908-b985-eb9d27aa5140]
+    - [diagnostic, 5cba07a9-2e22-41eb-af13-d222ce956e3b]
+    - [note, 5cba07a9-2e22-41eb-af13-d222ce956e3b]
+  notes: Combines the dataset-level write-up with the persistence run's own note and diagnostic finding.
+
+- id: revenue-target-variable-eda
+  query: what does the EDA describe about the target variable revenue_next_usd in the revenue nowcast panel?
+  relevant:
+    - [eda, cb33bd5f-1d95-4908-b985-eb9d27aa5140]
+  notes: >
+    target_column=revenue_next_usd per mlflow.params on every revenue-nowcast
+    run; same singleton eda source.
