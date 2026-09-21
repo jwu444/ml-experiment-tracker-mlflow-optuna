@@ -2,7 +2,7 @@
 
 **Goal:** during the Week 3–4 enhancement phase, introduce commonly used commercial/professional tools into Project 1 so the student gets hands-on exposure to how real teams build, test, and ship — not just as an add-on, but attached to gaps the codebase already has.
 
-**Tracking issues:** [#16 LangSmith](https://github.com/jwu444/WavePoint-Project-1/issues/16) · [#17 Render + Vercel](https://github.com/jwu444/WavePoint-Project-1/issues/17) · [#18 GitHub Actions CI](https://github.com/jwu444/WavePoint-Project-1/issues/18) · [#19 Cloudflare R2](https://github.com/jwu444/WavePoint-Project-1/issues/19) — all labeled `infra enhancement`.
+**Tracking issues:** [#16 LangSmith](https://github.com/jwu444/csv-analysis-assistant-fastapi-react/issues/16) · [#17 Render + Vercel](https://github.com/jwu444/csv-analysis-assistant-fastapi-react/issues/17) · [#18 GitHub Actions CI](https://github.com/jwu444/csv-analysis-assistant-fastapi-react/issues/18) · [#19 Cloudflare R2](https://github.com/jwu444/csv-analysis-assistant-fastapi-react/issues/19) — all labeled `infra enhancement`.
 
 ## Why these four, why now
 

@@ -4,7 +4,7 @@
 **Date:** 2026-06-23 (revised 2026-06-25; storage/identity reframe 2026-06-25; raw-CSV storage 2026-06-29; D2 superseded by the judge-gated LLM loop 2026-07-29, issue #9 — see `doc/project-1-llm-loop-design.md`)
 **Program:** AI Engineering Workshop Summer 2026 — Project 1 (Weeks 1–4)
 **Source spec:** `ai-engineering-workshop/doc/workshop-program-overview.md` §3.1
-**Repo:** `WavePoint-Project-1`
+**Repo:** `csv-analysis-assistant-fastapi-react`
 
 ---
 

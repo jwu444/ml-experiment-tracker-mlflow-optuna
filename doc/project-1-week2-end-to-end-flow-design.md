@@ -1,6 +1,6 @@
 # Project 1 — Week 2 End-to-End Flow Design
 
-**Source ticket:** [wavepoint-build/ai-engineering-workshop#12](https://github.com/wavepoint-build/ai-engineering-workshop/issues/12) — "[P1 W2] Core user flow: CSV upload → chart + LLM interpretation".
+**Source ticket:** `wavepoint-build/ai-engineering-workshop#12` (private repo) — "[P1 W2] Core user flow: CSV upload → chart + LLM interpretation".
 **Status:** Approved 2026-07-03. Builds on the approved architecture in `doc/project-1-csv-analysis-assistant-design.md` and the schema in `backend/db/schema.sql` (#11).
 
 ## Goal

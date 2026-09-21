@@ -1,7 +1,7 @@
 # Project 2 — The Experiment/Run Hierarchy: Design
 
-**Origin:** [issue #54](https://github.com/jwu444/WavePoint-Project-2/issues/54) — surfaced while
-running the Phase 2a/2b acceptance checklist ([#48](https://github.com/jwu444/WavePoint-Project-2/issues/48),
+**Origin:** [issue #54](https://github.com/jwu444/ml-experiment-tracker-mlflow-optuna/issues/54) — surfaced while
+running the Phase 2a/2b acceptance checklist ([#48](https://github.com/jwu444/ml-experiment-tracker-mlflow-optuna/issues/48),
 item 5). What the app presents as a "leaderboard" is a flat, unordered list of every training run
 ever made, with nothing recording which runs pursue the same question.
 

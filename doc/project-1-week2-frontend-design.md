@@ -1,6 +1,6 @@
 # Project 1 — Week 2 Frontend Design
 
-**Source ticket:** [wavepoint-build/ai-engineering-workshop#12](https://github.com/wavepoint-build/ai-engineering-workshop/issues/12) — "[P1 W2] Core user flow: CSV upload → chart + LLM interpretation", Phase 4 (React/Vite frontend).
+**Source ticket:** `wavepoint-build/ai-engineering-workshop#12` (private repo) — "[P1 W2] Core user flow: CSV upload → chart + LLM interpretation", Phase 4 (React/Vite frontend).
 **Status:** Approved 2026-07-04. Builds on the backend delivered in Phases 1–3 (see `doc/project-1-week2-end-to-end-flow-design.md`) and consumes its HTTP contract unchanged.
 
 ## Goal

@@ -7,7 +7,7 @@
 
 **Design spec:** `doc/project-2-ml-experiment-tracker-design.md`, amended by
 `doc/plans/2026-08-10-project-2-phases-2-4-design.md` (D12–D21)
-**Program spec:** `~/Documents/WavePoint/ai-engineering-workshop/doc/workshop-program-overview.md` §3.2
+**Program spec:** `ai-engineering-workshop/doc/workshop-program-overview.md` §3.2 (private repo)
 **Timeline:** 4 working weeks — Phase 1 in Week 5, Phases 2–4 over the following three. Phase 2
 was split into **2a** and **2b** on 2026-08-11 (§9); both sit inside Week 6, and §7 records what
 gets cut if they do not both fit.

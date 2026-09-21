@@ -310,7 +310,7 @@ failure, never silently worked around."
 **Interfaces:**
 - Consumes: the `ci-check` skill from Task 1, invoked (or, if not yet
   discoverable this session, read and manually followed) against PR #9 in
-  `jwu444/WavePoint-Project-2`.
+  `jwu444/ml-experiment-tracker-mlflow-optuna`.
 - Produces: a verified skill file, confirmed to reproduce the manual result
   already established for PR #9.
 

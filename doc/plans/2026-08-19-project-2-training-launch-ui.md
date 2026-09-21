@@ -43,7 +43,7 @@
 > Everything below this block is the original text and still says `dataset_id`
 > in places the amendment overrides. Where the two disagree, this block governs.
 
-**Origin:** [issue #52](https://github.com/jwu444/WavePoint-Project-2/issues/52) — `POST /experiments/train` and `POST /experiments/tune` exist and work, but nothing in the frontend calls them. `/experiments` only filters and reads existing runs; every actual training call has to be a hand-written `curl`. This was found while running the Phase 2a/2b acceptance checklist (issue #48) and is the single highest-value UI gap in the app right now. There is no separate design doc — the design was worked out directly on #52 and is reproduced below.
+**Origin:** [issue #52](https://github.com/jwu444/ml-experiment-tracker-mlflow-optuna/issues/52) — `POST /experiments/train` and `POST /experiments/tune` exist and work, but nothing in the frontend calls them. `/experiments` only filters and reads existing runs; every actual training call has to be a hand-written `curl`. This was found while running the Phase 2a/2b acceptance checklist (issue #48) and is the single highest-value UI gap in the app right now. There is no separate design doc — the design was worked out directly on #52 and is reproduced below.
 
 **Goal:** A "New run" action on `/experiments` that launches a real training or Optuna-tuning run, with the same validation guarantees the API already has (unknown column/model → the backend's real error, not a guess).
 

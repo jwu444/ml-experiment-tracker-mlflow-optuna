@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Source ticket:** [wavepoint-build/ai-engineering-workshop#11](https://github.com/wavepoint-build/ai-engineering-workshop/issues/11) — "[P1 W2] schema.sql / queries.sql". **This plan covers Parts 1 & 2 only** (DDL + PK/FK/indexes). Part 3 (`queries.sql` progression) and the knowledge-base update are out of scope here.
+**Source ticket:** `wavepoint-build/ai-engineering-workshop#11` (private repo) — "[P1 W2] schema.sql / queries.sql". **This plan covers Parts 1 & 2 only** (DDL + PK/FK/indexes). Part 3 (`queries.sql` progression) and the knowledge-base update are out of scope here.
 
 **Goal:** Hand-author a Postgres `schema.sql` that models the full Project 1 analytics database — five tables with types, `NOT NULL`/`DEFAULT`/timestamp columns, primary keys, the ticket's one-to-many foreign-key chain, `ON DELETE` behavior, and indexes on FK columns. This is a Week 2 SQL-learning artifact and the intended foundation for the later FastAPI + SQLAlchemy integration; it is a **standalone raw-SQL file** and does **not** modify `backend/app/models.py`.
 
@@ -127,5 +127,5 @@
 ## Out of scope (tracked for a follow-up plan)
 
 - **Part 3 — `queries.sql`:** simple / join / aggregation / advanced (CTE + window) query progression + seed data.
-- **Knowledge-base update** (https://github.com/wavepoint-build/knowledge-base).
+- **Knowledge-base update** (`wavepoint-build/knowledge-base`, private repo).
 - **SQLAlchemy alignment:** reconciling `models.py` (currently `chat_messages.dataset_id` → datasets, `cost_usd` Float, no `chats`/`dataset_columns`/`analyses`) with this schema — belongs to the FastAPI integration milestone, not this SQL exercise.

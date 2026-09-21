@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Design:** `doc/plans/2026-08-22-project-2-experiment-run-hierarchy-design.md` (decisions **D33–D40**). Read §2–§9 of that document before starting. **Origin:** [issue #54](https://github.com/jwu444/WavePoint-Project-2/issues/54).
+**Design:** `doc/plans/2026-08-22-project-2-experiment-run-hierarchy-design.md` (decisions **D33–D40**). Read §2–§9 of that document before starting. **Origin:** [issue #54](https://github.com/jwu444/ml-experiment-tracker-mlflow-optuna/issues/54).
 
 **Goal:** Give the app a real Experiment→Run hierarchy mirroring MLflow's own, so that a leaderboard ranks runs that actually share an objective.
 

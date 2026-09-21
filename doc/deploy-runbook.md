@@ -187,7 +187,7 @@ is **dry-run by default** — inspect the plan, then re-run with `--apply`.
 ```bash
 poetry run python scripts/migrate_artifact_uris.py \
   --database-url "$RENDER_EXTERNAL_URL" \
-  --old-root "/Users/justinwu/dev/wavepoint/wavepoint-project-2/mlruns" \
+  --old-root "$HOME/dev/ml-experiment-tracker-mlflow-optuna/mlruns" \
   --new-root "s3://wavepoint-artifacts/mlruns" \
   --apply
 ```
